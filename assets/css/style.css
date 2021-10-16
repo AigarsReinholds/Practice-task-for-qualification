@@ -302,6 +302,7 @@ div.columnFull3 {
 textarea {
 display:block;
 height:232px;
+resize:none;
 }
 
 p.mustfill {
