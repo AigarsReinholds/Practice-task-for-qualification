@@ -586,6 +586,7 @@ font-family: 'Montserrat', sans-serif;
  @media screen and (max-width: 800px) {
   .footer-col-right2 {
 	float:left;
+	  margin:auto;
   }
 }
 @media only screen and (max-width: 1200px) and (min-width: 430px) {
