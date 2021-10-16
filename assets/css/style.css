@@ -326,7 +326,7 @@ background: #E7E7E7;
 }
 
 .list-item {
-display:inline-block;
+display:inline;
 margin-top:10px;
 margin-bottom:25px;
 
@@ -352,7 +352,6 @@ width: 182px;
 height: 62px;
 
 font-family: 'Montserrat', sans-serif;
-font-weight: 500;
 font-size: 24px;
 line-height: 29px;
 display: flex;
@@ -361,6 +360,7 @@ text-align: center;
 left: 50%;
  transform: translateX(-50%);
 border-radius:100px;
+margin-top: 30px;
 color: #FFFFFF; 
 background: #FFA800;
 cursor:pointer;
