@@ -302,7 +302,7 @@ div.columnFull3 {
 textarea {
 display:block;
 height:232px;
-resize:none;
+resize: none;
 }
 
 p.mustfill {
@@ -360,10 +360,10 @@ text-align: center;
 left: 50%;
  transform: translateX(-50%);
 border-radius:100px;
-margin-top: 30px;
 color: #FFFFFF; 
 background: #FFA800;
 cursor:pointer;
+margin-top:30px;
 }
 
 .button4:hover {
@@ -513,25 +513,17 @@ color: #FFFFFF;
 
 /* Zemāk mobile view properties*/
 
-.navigationMobile {
-width:100%;
-}
-
 .navigation-toggler {
-display:none;
 color: #000000;
+background: #FFFFFF;
 border-color: rgba(0,0,0,.1);
 }
-
 
 .navigation-toggler-icon {
 	display: inline-block;
 	width: 1.5em;
 	height: 1.5em;
-}
-
-.navigation-toggler-icon, .navigation-light {
-	background-image: url("assets/img/navbar-icon.png")
+	background-image: url(assets/img/navbar-icon.png);
 }
 
 .overlay {
@@ -566,27 +558,73 @@ font-family: 'Montserrat', sans-serif;
  transition: 0.3s;
 }
 
+.closebtn {
+	position: absolute;
+	top: 0;
+	right:35px;
+	font-size:50px;
+	color: #000000;
+}
+
 @media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
+  .overlay a {
+  font-size: 20px
+ }
+  .overlay {
   font-size: 18px;
   top: 15px;
   right: 35px;
+  color: #000000;
 	}
   }
-@media screen and (max-width: 800px) {
-   .footer-navigation, .footer-col-right1{
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
+
+  @media screen and (max-width: 880px) {
+   .navigation-inner{
+	visibility: hidden;
   }
  }
- @media screen and (max-width: 800px) {
-  .footer-col-right2 {
+
+   @media screen and (min-width: 880px) {
+   .navigation-toggler {
+	display: none;
+   }
+ }
+    @media screen and (max-width: 889px) { 
+	.navigation-toggler {
+	float: right;
+    display: block;
+  }
+
+@media screen and (max-width: 880px) {
+   .footer-navigation, .footer-col-right1{
+   display:none;
+  }
+ }
+
+ @media screen and (max-width: 880px) {
+	.footer-column {
+	position: relative;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+  }
+
+  .footer-leftlogo {
+  margin-left: 0%;
+  }
+
+  .footer-col-right2 p {
+	text-align:left;
+  }
+
+  .footer-icon {
+  float:left;
+  margin: auto;
+  margin-right: 30px;
+  }
+
+  .privatuma-politika {
 	float:left;
-	  margin:auto;
   }
 }
 @media only screen and (max-width: 1200px) and (min-width: 430px) {
@@ -620,4 +658,12 @@ font-family: 'Montserrat', sans-serif;
   }
 }
 
-/* CSS beigas */
+@media screen and (max-width: 880px) {
+  .column {
+	position: relative;
+	width: 100%;
+	margin: auto;
+  }
+}
+
+/*  CSS beigas */
