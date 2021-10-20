@@ -7,9 +7,7 @@ function closeNav() {
 }
 
 function scrollDown() {
-if (location.hash.length !== 0) {
-window.scrollTo(0,document.body.scrollHeight);
-    }
+    window.scrollTo(0,2100);
 };
 
 
