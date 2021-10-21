@@ -8,6 +8,15 @@ function closeNav() {
 
 function scrollDown() {
     window.scrollTo(0,2100);
-};
+}
 
+window.onscroll = function() {
+    scrollDownAppear()
+}
+
+function scrollDownAppear() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        document.getElementById("scrollDown").className = "scroll-down-appear";    
+ }
+};
 
