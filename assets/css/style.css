@@ -221,7 +221,7 @@ height:135px;
 }
 
 .third-section h3 {
-margin-top:50px;
+margin-top:125px;
 margin-bottom:40px;
 font-family: 'Oswald', sans-serif;
 font-weight:500;
@@ -327,7 +327,8 @@ line-height: 17px;
 color: #2F4858;
 }
 .checkbox{
-opacity:0; 
+opacity:0;
+margin-top:12px;
 }
 
 .checkbox1 {
@@ -340,7 +341,7 @@ background: #E7E7E7;
 }
 
 .list-item {
-display:inline;
+display:inline-block;
 margin-top:10px;
 margin-bottom:25px;
 
@@ -351,10 +352,14 @@ line-height: 17px;
 color: #2F4858;
 }
 label {
-whitespace:nowrap;
+width: 90%;
+display: block;
+white-space: nowrap;
 }
 
 label span {
+position:relative;
+vertical-align: top;
 display:inline-block;
 white-space:normal;
 margin-top:10px;
@@ -650,45 +655,6 @@ font-weight: 500;
 	right: 10px;
  }
 }
-/* Zemak footer properties */
-@media screen and (max-width: 880px) {
-   .footer-navigation, .footer-col-right1{
-   display:none;
-  }
- }
-
- @media screen and (max-width: 880px) {
-	.footer-column {
-	position: relative;
-	width: 100%;
-	padding-left: 15px;
-	padding-right: 15px;
-  }
-
-  .footer-leftlogo {
-  margin-left: 0%;
-  }
-
-  .footer-col-right2 p {
-	text-align:left;
-  }
-
-  .footer-icon {
-  float:left;
-  margin: auto;
-  margin-top: 30px;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  }
-
-  .copyright {
-	margin-top: 120px;
-  }
-
-  .privatuma-politika {
-	float:left;
-  }
-}
 
 /* Zemak 2 section properties */
 @media only screen and (max-width: 880px) {
@@ -735,5 +701,46 @@ font-weight: 500;
 	height: 363px;
  }
 }
+
+/* Zemak footer properties */
+@media screen and (max-width: 880px) {
+   .footer-navigation, .footer-col-right1{
+   display:none;
+  }
+ }
+
+ @media screen and (max-width: 880px) {
+	.footer-column {
+	position: relative;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+  }
+
+  .footer-leftlogo {
+  margin-left: 0%;
+  }
+
+  .footer-col-right2 p {
+	text-align:left;
+  }
+
+  .footer-icon {
+  float:left;
+  margin: auto;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  }
+
+  .copyright {
+	margin-top: 120px;
+  }
+
+  .privatuma-politika {
+	float:left;
+  }
+}
+
 
 /*  CSS beigas */
