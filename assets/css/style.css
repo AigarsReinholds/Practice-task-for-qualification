@@ -148,7 +148,7 @@ bottom: 0;
 
 background: url(assets/img/ripped.png);
 }
-
+@media screen and (min-width: 881px) {
 div.images {
 padding-top:5px;
 }
@@ -192,8 +192,8 @@ width: 29.5%;
 height: 383px;
  background-repeat: no-repeat;
  background-size: cover;
+ }
 }
-
 .third-section {
 	margin-top: 100px;
 }
@@ -287,7 +287,7 @@ letter-spacing: -0.015em;
 height: 43px;
 margin-bottom:10px;
 padding-top:5px;
-padding-left:5px;
+padding-left:10px;
 width:100%;
 border:none;
 border-radius: 6px;
@@ -692,23 +692,47 @@ font-weight: 500;
 
 /* Zemak 2 section properties */
 @media only screen and (max-width: 880px) {
-.images {
-	margin:auto;
+.images-mobile {
+	padding-top: 5px;
  }
- .firstImage {
-	height: 200px;
+ .thirdFourthImage-mobile {
+ 	width: 40%;
+	float:left;
  }
-  .secondImage {
-	height: 206px;
+  .thirdImage-mobile {
+	height: 87px;
+	background-repeat: no-repeat;
+	background-size: cover;
  }
-  .thirdImage {
-	height: 102px;
+ .fourthImage-mobile {
+	height: 87px;
+	background-repeat: no-repeat;
+	background-size: cover;
  }
-  .fourthImage {
-	height: 104px;
+ .fifthImage-mobile {
+	float:right;
+ 	width: 60%;
+	height: 174px;
+	background-repeat: no-repeat;
+	background-size: cover;
  }
-  .fifthImage {
-	height: 216px;
+ .firstImage-mobile {
+	float:left;
+	width: 51%;
+	height: 183px;
+	background-repeat: no-repeat;
+	background-size: cover;
+ }
+  .secondImage-mobile {
+	float:left;
+  	width: 49%;
+	height: 183px;
+	background-repeat: no-repeat;
+	background-size: cover;
+ }
+
+ .secondSection {
+	height: 363px;
  }
 }
 
