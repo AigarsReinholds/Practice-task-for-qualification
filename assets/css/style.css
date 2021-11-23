@@ -112,17 +112,41 @@ width:10%;
 filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
 }
 
-.firstSection p {
-font-family: 'Montserrat', sans-serif;
-font-weight: normal;
-font-size: 18px;
-width:50%;
+.first-section p {
 margin:auto;
 margin-top:225px;
 margin-bottom:225px;
 
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+font-size: 18px;
+width:50%;
 line-height:22px;
 text-align:center;
+color: #2F4858;
+}
+
+.first-section-ideja p {
+margin-top:100px;
+margin-bottom:225px;
+
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+font-size: 18px;
+line-height:22px;
+text-align:center;
+color: #2F4858;
+}
+
+.first-section-ideja h1 {
+margin-top: 100px;
+font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 71px;
+text-align: center;
+
 color: #2F4858;
 }
 
@@ -131,7 +155,26 @@ position: relative;
 height:400px;
 }
 
-.rippedUp {
+.second-section-ideja {
+	position: relative;
+	width:100%;
+	background-size: cover;	
+}
+
+.second-section-ideja p {
+position: relative;
+margin-top: 200px;
+font-family: "Oswald";
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.ripped-top {
 position: absolute;
 width: 100%;
 z-index:1;
@@ -139,15 +182,22 @@ z-index:1;
 background: url(assets/img/ripped.png);
 }
 
-.rippedDown {
+.ripped-bottom {
 position: absolute;
-width: 100%;
 left: 0;
 bottom: 0;
-
+width: 100%;
 
 background: url(assets/img/ripped.png);
 }
+
+.ripped-bottom-ideja {
+position: relative;
+left: 0;
+bottom: -5px;
+width: 100%;
+}
+
 @media screen and (min-width: 881px) {
 div.images {
 padding-top:5px;
@@ -202,6 +252,30 @@ div.wrapper {
 	margin: auto;
 	width:75%
 }
+
+.wrapper-1 {
+	margin: auto;
+	width: 40%;
+}
+
+.wrapper-2 {
+	margin: auto;
+	padding-top: 350px;
+	padding-bottom: 50px;
+	width: 50%;
+}
+
+.wrapper-3 {
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 40%;
+}
+
+.right-arrow-btn {
+	margin-left: 50px;
+}
+
 @media screen and (min-width: 881px) {
 .row {
 	display: flex;
@@ -232,6 +306,41 @@ text-align: center;
 color: #2F4858;
 }
 
+.third-section-ideja h5 {
+font-family: "Oswald";
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+
+color: #2F4858;
+}
+
+.ts-ideja-p1 {
+font-family: "Montserrat";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+color: #2F4858;
+}
+
+.ts-ideja-p2 {
+font-family: "Montserrat";
+font-style: italic;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #2F4858;
+}
 
 .third-section-button {
 position: absolute;
@@ -709,6 +818,27 @@ font-weight: 500;
   }
  }
 
+ @media screen and (min-width: 881px) {
+   .rekviziti-mobile{
+   display:none;
+  }
+ }
+
+ @media screen and (max-width: 880px) {
+   .rekviziti-mobile{
+   display:block;
+  }
+
+  .rekviziti {
+   font-family: 'Montserrat', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 17px;
+   color: #FFFFFF;
+  }
+ }
+
  @media screen and (max-width: 880px) {
 	.footer-column {
 	position: relative;
@@ -740,7 +870,13 @@ font-weight: 500;
   .privatuma-politika {
 	float:left;
   }
+  .footer-bottom {
+	margin-left: 15px;
+	margin-right: 15px;
+  }
 }
 
-
+.img-juris {
+	width:100%;
+}
 /*  CSS beigas */
