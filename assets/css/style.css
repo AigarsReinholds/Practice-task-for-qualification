@@ -126,11 +126,11 @@ text-align:center;
 color: #2F4858;
 }
 
-.first-section-ideja p {
+.first-section-ideja p, .first-section-uznemejiem p {
 margin-top:100px;
 margin-bottom:225px;
 
-font-family: 'Montserrat', sans-serif;
+font-family: "Montserrat";
 font-weight: normal;
 font-size: 18px;
 line-height:22px;
@@ -138,9 +138,9 @@ text-align:center;
 color: #2F4858;
 }
 
-.first-section-ideja h1 {
+.first-section-ideja h1, .first-section-piesaki-sapni h1, .first-section-uznemejiem h1, .first-section-sapnu-banka h1 {
 margin-top: 100px;
-font-family: 'Oswald', sans-serif;
+font-family: "Oswald";
 font-style: normal;
 font-weight: 500;
 font-size: 48px;
@@ -150,9 +150,59 @@ text-align: center;
 color: #2F4858;
 }
 
+.first-section-piesaki-sapni p {
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #2F4858;
+}
+
+.first-section-sapnu-banka {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
 .secondSection {
 position: relative;
 height:400px;
+}
+
+.second-section-piesaki-sapni {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.second-section-piesaki-sapni h3 {
+font-family: "Oswald";
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+text-align: center;
+
+color: #2F4858;
+}
+
+.second-section-piesaki-sapni p {
+margin:auto;
+padding-bottom: 100px;
+width: 55%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #2F4858;
 }
 
 .second-section-ideja {
@@ -174,6 +224,21 @@ text-align: center;
 color: #FFFFFF;
 }
 
+.sb-background-1 {
+	width: 100%;
+}
+
+.sb-heading {
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+text-align: center;
+
+color: #2F4858;
+}
+
 .ripped-top {
 position: absolute;
 width: 100%;
@@ -183,9 +248,9 @@ background: url(assets/img/ripped.png);
 }
 
 .ripped-bottom {
-position: absolute;
 left: 0;
 bottom: 0;
+position: absolute;
 width: 100%;
 
 background: url(assets/img/ripped.png);
@@ -211,12 +276,31 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+.first-image {
+	float: left;
+	width: 25%;
+	height: 355px;
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
 div.secondImage {
 float:left;
 width: 25.5%;
 height: 364px;
  background-repeat: no-repeat;
  background-size: cover;
+}
+
+.second-third-image {
+	float:left;
+	width: 20%;
+}
+
+.second-image {
+	height: 189px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 div.thirdFourthImage {
@@ -226,14 +310,28 @@ float:left;
 
 div.thirdImage {
 height: 180px;
- background-repeat: no-repeat;
- background-size: cover;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.third-image {
+	height: 187px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 div.fourthImage {
 height: 184px;
 background-repeat: no-repeat;
 background-size: cover;
+}
+
+.fourth-image {
+	float: left;
+	width: 20%;
+	height: 376px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 div.fifthImage {
@@ -243,12 +341,18 @@ height: 383px;
  background-repeat: no-repeat;
  background-size: cover;
  }
+ 
+ .fifth-image {
+	float:left; 
+	width: 35%; 
+	height: 376px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.third-section {
-	margin-top: 100px;
+ 
 }
 
-div.wrapper {
+.wrapper {
 	margin: auto;
 	width:75%
 }
@@ -262,7 +366,7 @@ div.wrapper {
 	margin: auto;
 	padding-top: 350px;
 	padding-bottom: 50px;
-	width: 50%;
+	width: 45%;
 }
 
 .wrapper-3 {
@@ -270,6 +374,67 @@ div.wrapper {
 	padding-top: 100px;
 	padding-bottom: 100px;
 	width: 40%;
+}
+
+.wrapper-merkis {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.wrapper-sapnu-banka {
+	margin: auto;
+	width: 45%;
+	text-align: center;
+}
+
+.about-juris {
+	margin: auto;
+	width: 80%;
+}
+
+.about-uznemejiem {
+	margin: auto;
+	width: 109%;
+}
+
+.about-merkis, .about-sapnus-atlasis {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #2f4858;
+}
+
+.about-sapnus-atlasis-paragraph {
+	width: 31%;
+	margin: auto;
+}
+
+.about-merkis-1, .about-merkis-3 {
+	width: 26%;
+	margin-left: 75px;
+	text-align: left;
+}
+
+.about-merkis-2 {
+	width: 26%;
+	margin-right: 75px;
+	text-align: right;
+}
+
+.about-misija {
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #2f4858;
 }
 
 .right-arrow-btn {
@@ -294,7 +459,28 @@ div.column-inner {
 height:135px;
 }
 
-.third-section h3 {
+.column-sb { text-align:center; }
+
+.third-section {
+	margin-top: 100px;
+}
+
+.third-section-sapnu-banka, .fifth-section-sapnu-banka {
+	background: #ffcb66;
+}
+
+.third-section-sapnu-banka p, .fifth-section-sapnu-banka p {
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #ffffff;
+}
+
+.third-section h3, .sixth-section-sapnu-banka {
 margin-top:125px;
 margin-bottom:40px;
 font-family: 'Oswald', sans-serif;
@@ -342,7 +528,13 @@ align-items: center;
 color: #2F4858;
 }
 
-.third-section-button {
+.third-section-piesaki-sapni {
+	position: relative;
+	height: 400px;
+	margin-bottom: 100px;
+}
+
+.button-sapnis {
 position: absolute;
 width: 233px;
 height: 50px;
@@ -363,11 +555,11 @@ color: #FFFFFF;
 background: #FFA800;
 }
 
-.third-section-button:hover {
+.button-sapnis:hover {
 background: #FFDA16;
 }
 
-.fourthSection h2 {
+.fourthSection h2, .fourth-section-piesaki-sapni h2, .second-section-uznemejiem h2 {
 margin-top:200px;
 margin-bottom:50px;
 
@@ -379,6 +571,8 @@ text-align: center;
 
 color: #2F4858;
 }
+
+.fourth-section-piesaki-sapni, .second-section-uznemejiem { margin-bottom: 200px; }
 
 .formWrapper {
 margin:auto;
