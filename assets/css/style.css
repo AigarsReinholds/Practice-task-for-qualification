@@ -112,21 +112,7 @@ width:10%;
 filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
 }
 
-.first-section p {
-margin:auto;
-margin-top:225px;
-margin-bottom:225px;
-
-font-family: 'Montserrat', sans-serif;
-font-weight: normal;
-font-size: 18px;
-width:50%;
-line-height:22px;
-text-align:center;
-color: #2F4858;
-}
-
-.first-section-ideja p, .first-section-uznemejiem p {
+.first-section-ideja p, .first-section-uznemejiem p, .about-sapnus-atbalsta {
 margin-top:100px;
 margin-bottom:225px;
 
@@ -137,8 +123,8 @@ line-height:22px;
 text-align:center;
 color: #2F4858;
 }
-
-.first-section-ideja h1, .first-section-piesaki-sapni h1, .first-section-uznemejiem h1, .first-section-sapnu-banka h1 {
+ 
+.first-section h1 {
 margin-top: 100px;
 font-family: "Oswald";
 font-style: normal;
@@ -147,10 +133,10 @@ font-size: 48px;
 line-height: 71px;
 text-align: center;
 
-color: #2F4858;
+color: #2f4858;
 }
 
-.first-section-piesaki-sapni p {
+.first-section-piesaki-sapni p, .first-section-iedvesmas-stasti p {
 font-family: "Montserrat";
 font-style: normal;
 font-weight: 500;
@@ -167,6 +153,8 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 }
+
+.first-section-sapnus-atbalsta , .first-section-iedvesmas-stasti { margin-bottom: 100px; }
 
 .secondSection {
 position: relative;
@@ -224,12 +212,17 @@ text-align: center;
 color: #FFFFFF;
 }
 
+.second-section-sapnu-banka, .fourth-section-sapnu-banka {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
 .sb-background-1 {
 	width: 100%;
 }
 
-.sb-heading {
-font-family: Oswald;
+.sb-heading, .third-section-iedvesmas-stasti h2 {
+font-family: "Oswald";
 font-style: normal;
 font-weight: 500;
 font-size: 30px;
@@ -237,6 +230,26 @@ line-height: 44px;
 text-align: center;
 
 color: #2F4858;
+}
+
+.uznemums-heading {
+	font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: -0.015em;
+
+color: #FFA800;
+}
+
+select {
+	width: 288px;
+	height: 43px;
+	background: #C4C4C466;
+	border-radius: 6px;
+	border:none;
+	padding-left: 10px;
 }
 
 .ripped-top {
@@ -389,6 +402,20 @@ height: 383px;
 	text-align: center;
 }
 
+.about-sparkleheart {
+margin:auto;
+margin-top:225px;
+margin-bottom:225px;
+width: 35%;
+
+font-family: 'Montserrat';
+font-weight: normal;
+font-size: 18px;
+line-height:22px;
+text-align:center;
+color: #2F4858;
+}
+
 .about-juris {
 	margin: auto;
 	width: 80%;
@@ -437,15 +464,101 @@ text-align: center;
 color: #2f4858;
 }
 
+.about-sapnus-atbalsta { 
+width: 45%;
+margin: auto;
+}
+
+.about-komanda {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #2f4858;
+}
+
+.komanda-member {
+	position: absolute;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #ffffff
+}
+
 .right-arrow-btn {
 	margin-left: 50px;
+}
+
+.iedvesmas-stasts-number {
+position: absolute;
+font-family: "Oswald";
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 53px;
+text-align: right;
+
+color: #ffffff;
+}
+
+.iedvesmas-stasts-background {
+	opacity: 0.5;
+}
+
+.stasts {
+	background-repeat: no-repeat;
+	margin: 5px;
+}
+
+.stasts-name {
+	position: absolute;
+	font-family: "Oswald";
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #ffffff;
+}
+
+.stasts-coming {
+	position: absolute;
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #ffffff;
 }
 
 @media screen and (min-width: 881px) {
 .row {
 	display: flex;
 	flex-wrap:wrap;
+	justify-content: center;
  }
+ 
+.last-row {
+	display: flex;
+	margin-left: 23%;
+} 
+ 
 }
 
 div.column {
@@ -461,13 +574,30 @@ height:135px;
 
 .column-sb { text-align:center; }
 
-.third-section {
-	margin-top: 100px;
+.col-1 {
+	flex-grow: 1;
+	flex-basis: 0;
+	text-align: right;
+	padding-right: 10px;
+}
+.col-2 {
+	flex-grow: 1;
+	flex-basis: 0;
+	text-align: left;
+	padding-left: 10px;
 }
 
+.column-komanda { margin: 35px; }
+
+.third-section { margin-top: 100px; }
+
 .third-section-sapnu-banka, .fifth-section-sapnu-banka {
-	background: #ffcb66;
-}
+	padding-top: 100px;
+	padding-bottom: 60px;
+	background-size: 100% 100%;
+} 
+
+.third-section-iedvesmas-stasti { margin-bottom: 100px; }
 
 .third-section-sapnu-banka p, .fifth-section-sapnu-banka p {
 font-family: "Montserrat";
@@ -490,6 +620,10 @@ line-height: 36px;
 text-align: center;
 
 color: #2F4858;
+}
+
+.sixth-section-sapnu-banka {
+	margin-bottom: 100px;
 }
 
 .third-section-ideja h5 {
@@ -696,8 +830,9 @@ background: #FFDA16;
 
 .fifthSection {
 margin-top:200px;
+padding-top: 100px;
 height: 533.32px;
-background: #FFCB66;
+background-size: 100%;
 }
 
 .rippedUp3 {
