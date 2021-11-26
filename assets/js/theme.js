@@ -18,5 +18,16 @@ function scrollDownAppear() {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         document.getElementById("scrollDown").className = "scroll-down-appear";    
  }
-};
+}
 
+function appearText() {
+	document.getElementById("appeartext").style.display = "block";
+}
+
+function selectLocation(select) {
+	if (select.value == 1) {
+		document.getElementById("js-selected-riga").style.display = "block";
+	} else {
+	document.getElementById("js-selected-riga").style.display = "none";
+	}
+}
