@@ -124,7 +124,7 @@ text-align:center;
 color: #2F4858;
 }
  
-.first-section h1 {
+.first-section h1, .sapnu-banka-title {
 margin-top: 100px;
 font-family: "Oswald";
 font-style: normal;
@@ -231,6 +231,8 @@ text-align: center;
 
 color: #2F4858;
 }
+
+.third-section-iedvesmas-stasti h2 { padding-top: 100px;}
 
 .uznemums-heading {
 	font-family: "Montserrat";
@@ -523,53 +525,59 @@ color: #ffffff;
 	margin-left: 50px;
 }
 
+.wrapper-stasti {
+	margin: auto;
+	width: 60%;
+}
+
 .iedvesmas-stasts-number {
-padding-top: 70px;
-padding-left: 100px;
 position: absolute;
+right: 5px;
+bottom: -30px;
 font-family: "Oswald";
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
 line-height: 53px;
 text-align: right;
-
+z-index: 2;
 color: #ffffff;
 }
 
 .iedvesmas-stasts-background {
-	opacity: 0.5;
-	height: 160px;
+	position: absolute;
 }
 
 .stasts {
-	background-repeat: no-repeat;
+	position: relative;
+	width: 160px;
+	height: 160px;
 	margin: 5px;
+	float: left;
+	background-repeat: no-repeat;
 }
 
 .stasts-name {
-	position: absolute;
+	position: relative;
+	padding-top: 40px;
 	font-family: "Oswald";
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
 line-height: 36px;
-display: flex;
-align-items: center;
 text-align: center;
 
 color: #ffffff;
 }
 
 .stasts-coming {
-	position: absolute;
-font-family: Oswald;
+	position: relative;
+padding-top: 40px;
+font-family: "Oswald";
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 27px;
-display: flex;
-align-items: center;
 text-align: center;
 
 color: #ffffff;
@@ -630,7 +638,11 @@ background-repeat: no-repeat;
 	background-size: 100% 100%;
 } 
 
-.third-section-iedvesmas-stasti { margin-bottom: 100px; }
+.third-section-iedvesmas-stasti {
+margin-top: 100px;	
+margin-bottom: 100px; 
+clear: both;
+}
 
 .third-section-sapnu-banka p, .fifth-section-sapnu-banka p {
 font-family: "Montserrat";
@@ -702,7 +714,7 @@ color: #2F4858;
 	margin-bottom: 100px;
 }
 
-.button-sapnis {
+.button-sapnis, .collapse-btn {
 position: absolute;
 width: 233px;
 height: 50px;
@@ -725,6 +737,22 @@ background: #FFA800;
 
 .button-sapnis:hover {
 background: #FFDA16;
+}
+
+@media screen and (min-width: 800px) {
+.collapse-btn {
+	display: none;
+	}
+}
+
+@media screen and (max-width: 799px) {
+.collapse.btn {
+	display: block;
+	bottom: 0;
+	}
+.collapse-stasti {
+	display: none;
+	}
 }
 
 .fourthSection h2, .fourth-section-piesaki-sapni h2, .second-section-uznemejiem h2 {
