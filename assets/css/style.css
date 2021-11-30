@@ -113,6 +113,12 @@ margin-top: -45px;
 filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
 }
 
+.play-btn-2 {
+  position: absolute;
+  width: 9%;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+}
+
 .first-section-ideja p, .first-section-uznemejiem p, .about-sapnus-atbalsta {
 margin-top:60px;
 margin-bottom:150px;
@@ -127,7 +133,7 @@ color: #2F4858;
  
 .first-section h1, .sapnu-banka-title {
 margin-top: 112px;
-margin-bottom: 60px;
+margin-bottom: 65px;
 font-family: "Oswald";
 font-style: normal;
 font-weight: 500;
