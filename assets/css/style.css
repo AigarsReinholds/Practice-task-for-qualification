@@ -380,8 +380,7 @@ height: 383px;
 	height: 376px;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
- 
+} 
 }
 
 .wrapper {
@@ -408,11 +407,26 @@ height: 383px;
 	width: 44%;
 }
 
-.wrapper-merkis {
+.wrapper-merkis-1 {
 	position: relative;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+.wrapper-merkis-2 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+.wrapper-merkis-3 {
+	position: relative;
+	display: flex;
+	align-items: center;
 	margin-top: 90px;
 	margin-bottom: 90px;
 }
