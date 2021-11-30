@@ -410,7 +410,8 @@ height: 383px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-bottom: 100px;
+	margin-top: 90px;
+	margin-bottom: 90px;
 }
 
 .wrapper-sapnu-banka {
@@ -442,6 +443,7 @@ color: #2F4858;
 	margin: auto;
 	width: 109%;
 }
+
 .merkis-logo-1 {
 width: 7%;	
 margin-left: 90px; 
