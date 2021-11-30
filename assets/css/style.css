@@ -228,6 +228,11 @@ color: #FFFFFF;
 	margin-bottom: 100px;
 }
 
+.second-section-sapnu-banka div {
+	position: relative;
+	display: flex;
+}
+
 .sb-background-1 {
 	width: 100%;
 }
@@ -380,7 +385,8 @@ height: 383px;
 	height: 376px;
 	background-repeat: no-repeat;
 	background-size: cover;
-} 
+}
+ 
 }
 
 .wrapper {
@@ -408,32 +414,23 @@ height: 383px;
 }
 
 .wrapper-merkis-1 {
-	position: relative;
-	display: flex;
-	align-items: center;
 	margin-top: 90px;
 	margin-bottom: 90px;
 }
 
 .wrapper-merkis-2 {
-	position: relative;
-	display: flex;
-	align-items: center;
 	margin-top: 90px;
 	margin-bottom: 90px;
 }
 
 .wrapper-merkis-3 {
-	position: relative;
-	display: flex;
-	align-items: center;
 	margin-top: 90px;
 	margin-bottom: 90px;
 }
 
 .wrapper-sapnu-banka {
-	margin: auto;
-	width: 45%;
+	margin-top: -26px;
+  margin-bottom: 40px;
 	text-align: center;
 }
 
@@ -465,7 +462,7 @@ color: #2F4858;
 width: 40%;	
 }
 
-.merkis-logo-2 { width: 35%; }
+.merkis-logo-2 { width: 50%; }
 
 .merkis-paragraph-1, .merkis-paragraph-3 { padding-right: 20%; }
 
@@ -490,8 +487,7 @@ width: 40%;
 }
 
 .about-merkis-2 {
-	width: 36%;
-	margin-right: 80px;
+	width: 50%;
 	text-align: right;
 }
 
@@ -504,6 +500,12 @@ line-height: 29px;
 text-align: center;
 
 color: #2f4858;
+}
+
+.about-sapni-paragraph-1 { 
+margin: auto;
+padding-top: 36px; 
+width: 60%;
 }
 
 .about-sapnus-atbalsta { 
