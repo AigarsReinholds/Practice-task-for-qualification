@@ -409,6 +409,7 @@ height: 383px;
 }
 
 .wrapper-merkis {
+	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -447,13 +448,12 @@ color: #2F4858;
 }
 
 .merkis-logo-1, .merkis-logo-3 {
-width: 7%;	
-margin-left: 90px; 
+width: 40%;	
 }
 
 .merkis-logo-2 { width: 35%; }
 
-.merkis-paragraph-1 { width: 44%; }
+.merkis-paragraph-1, .merkis-paragraph-3 { padding-right: 20%; }
 
 .about-merkis, .about-sapnus-atlasis {
 	font-family: "Montserrat";
