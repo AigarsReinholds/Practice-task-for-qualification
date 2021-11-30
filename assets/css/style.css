@@ -451,7 +451,7 @@ margin-left: 90px;
 
 .merkis-logo-2 { width: 35%; }
 
-merkis-paragraph-1 { width: 44%; }
+.merkis-paragraph-1 { width: 44%; }
 
 .about-merkis, .about-sapnus-atlasis {
 	font-family: "Montserrat";
@@ -466,10 +466,6 @@ merkis-paragraph-1 { width: 44%; }
 .about-sapnus-atlasis-paragraph {
 	width: 31%;
 	margin: auto;
-}
-
-.merkis-paragraph-1 {
-	width: 55%;
 }
 
 .about-merkis-1, .about-merkis-3 {
