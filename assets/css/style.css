@@ -232,6 +232,8 @@ color: #FFFFFF;
 	width: 100%;
 }
 
+.sb-misija { margin-top: 10px; }
+
 .sb-heading, .third-section-iedvesmas-stasti h2 {
 font-family: "Oswald";
 font-style: normal;
@@ -444,7 +446,7 @@ color: #2F4858;
 	width: 109%;
 }
 
-.merkis-logo-1 {
+.merkis-logo-1, .merkis-logo-3 {
 width: 7%;	
 margin-left: 90px; 
 }
