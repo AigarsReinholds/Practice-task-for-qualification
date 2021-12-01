@@ -253,6 +253,7 @@ color: #2F4858;
 .third-section-iedvesmas-stasti h2 { padding-top: 100px;}
 
 .uznemums-heading {
+	padding-top: 75px;
 	font-family: "Montserrat";
 font-style: normal;
 font-weight: 500;
@@ -527,9 +528,9 @@ padding-top: 36px;
 width: 70%;
 }
 
-.about-sapnus-atbalsta { 
-width: 45%;
+.about-sapnus-atbalsta {
 margin: auto;
+width: 60%;
 }
 .uznemums-name { 
 margin: auto;
