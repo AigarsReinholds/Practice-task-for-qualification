@@ -691,8 +691,10 @@ height:130px;
 }
 
 .column-komanda {
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
 height: 365px;
-width: 289px;
 margin-top: 60px;
 margin-left: 50px;
 background-repeat: no-repeat;
