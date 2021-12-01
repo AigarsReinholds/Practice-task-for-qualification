@@ -64,8 +64,10 @@ margin:0 auto;
 list-style:none;
 }
 
-a {
-text-decoration:none;
+a { text-decoration:none; }
+
+a:active { 
+border-bottom: 3px solid #ffa800;
 }
 
 #LV {
@@ -806,6 +808,7 @@ justify-content: center;
 left: 50%;
  transform: translateX(-50%);
 border-radius:100px;
+border: none;
 bottom: 0;
 cursor: pointer;
 color: #FFFFFF;
@@ -1021,11 +1024,11 @@ float:left;
 }
 
 .leftside-logos {
-width:50%;
+width:59%;
 }
 
 .rightside-logos {
-width:50%;
+width:34%;
 float:left;
 }
 
@@ -1065,7 +1068,7 @@ text-align: center;
 }
 
 .footer {
-margin-top: -126px;
+margin-top: -160px;
 }
 
 .footer-column {
@@ -1087,29 +1090,30 @@ margin-top:15px;
 }
 
 .footer-navigation a, .footer-text {
+margin-top: -6px;
 font-family: 'Montserrat', sans-serif;
 font-size: 18px;
 line-height: 22px;
 color: #FFFFFF;
 }
 .footer-col-right1 {
-	margin-top: 40px;
+	margin-top: 43px;
 }
 
 .footer-col-right1 p {
-	margin-left: -45px;
+	margin-left: -38px;
 }
 
 .footer-col-right2 {
-	margin-top: 40px;
+	margin-top: 43px;
 }
 
 .footer-col-right2 p {
-	margin-right: 65px;
+	margin-right: 58px;
 	text-align:right;
 }
 
-.footer-menu { margin-top: 20%; }
+.footer-menu { margin-top: 66px; }
 
 .heading {
 font-family: 'Montserrat', sans-serif;
@@ -1120,8 +1124,11 @@ color: #FFFFFF;
 
 .footer-icon {
 float:right;
-margin-left:30px;
+margin-top: 30px;
+margin-left: 25px;
 }
+
+.footer-icon-1 { margin-right: 58px; }
 
 .copyright {
 font-family: 'Montserrat', sans-serif;
@@ -1131,6 +1138,8 @@ color: #FFFFFF;
 }
 
 .privatuma-politika {
+margin-top: -12px;
+margin-right: 57px;
 font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 line-height: 17px;
@@ -1138,10 +1147,7 @@ float:right;
 color: #FFFFFF;
 }
 
-.footer-bottom div {
-	height:25px;
-	clear:both;
-}
+.footer div { clear: both; }
 
 .scroll-down, .scroll-down-appear{
 	width: 50px;
