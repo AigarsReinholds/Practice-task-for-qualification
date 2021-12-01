@@ -385,10 +385,8 @@ height: 383px;
 	height: 376px;
 	background-repeat: no-repeat;
 	background-size: cover;
+} 
 }
- 
-}
-
 
 .wrapper {
 	margin: auto;
@@ -486,6 +484,11 @@ width: 50%;
 	color: #2f4858;
 }
 
+.atlasis-logo-1 { padding-top: 32px; }
+
+.atlasis-logo-2 { padding-top: 65px; }
+
+
 .about-sapnus-atlasis-paragraph {
 	margin: auto;
 	width: 56%;
@@ -520,14 +523,14 @@ width: 60%;
 
 .about-sapni-paragraph-2 { 
 margin: auto;
-width: 60%;
+padding-top: 36px; 
+width: 70%;
 }
 
 .about-sapnus-atbalsta { 
 width: 45%;
 margin: auto;
 }
-
 .uznemums-name { 
 margin: auto;
 }
@@ -727,7 +730,7 @@ color: #2f4858;
 }
 
 .sixth-section-sapnu-banka {
-	margin-bottom: 100px;
+	margin-bottom: 195px;
 }
 
 .third-section-ideja h5 {
