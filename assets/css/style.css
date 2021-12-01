@@ -389,6 +389,7 @@ height: 383px;
  
 }
 
+
 .wrapper {
 	margin: auto;
 	width:75%
@@ -475,7 +476,7 @@ padding-left: 14%;
 width: 50%;
 }
 
-.about-merkis, .about-sapnus-atlasis {
+.about-merkis {
 	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: normal;
@@ -487,7 +488,7 @@ width: 50%;
 
 .about-sapnus-atlasis-paragraph {
 	margin: auto;
-	width: 44%;
+	width: 56%;
 }
 
 .about-merkis-1, .about-merkis-3 {
@@ -517,10 +518,16 @@ padding-top: 36px;
 width: 60%;
 }
 
+.about-sapni-paragraph-2 { 
+margin: auto;
+width: 60%;
+}
+
 .about-sapnus-atbalsta { 
 width: 45%;
 margin: auto;
 }
+
 .uznemums-name { 
 margin: auto;
 }
