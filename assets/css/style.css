@@ -1086,7 +1086,7 @@ margin-top:5px;
 }
 
 .footer-navigation li {
-margin-top:15px;
+margin-top:22px;
 }
 
 .footer-navigation a, .footer-text {
@@ -1131,6 +1131,7 @@ margin-left: 25px;
 .footer-icon-1 { margin-right: 58px; }
 
 .copyright {
+margin-left: 60px;
 font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 line-height: 17px;
@@ -1138,8 +1139,8 @@ color: #FFFFFF;
 }
 
 .privatuma-politika {
-margin-top: -12px;
-margin-right: 57px;
+margin-top: -34px;
+margin-right: 60px;
 font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 line-height: 17px;
@@ -1147,7 +1148,9 @@ float:right;
 color: #FFFFFF;
 }
 
-.footer div { clear: both; }
+.footer-bottom { 
+height: 1px;
+clear: both; }
 
 .scroll-down, .scroll-down-appear{
 	width: 50px;
