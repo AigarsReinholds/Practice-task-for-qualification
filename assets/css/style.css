@@ -1065,7 +1065,7 @@ text-align: center;
 }
 
 .footer {
-background: #2F4858;
+margin-top: -126px;
 }
 
 .footer-column {
@@ -1074,8 +1074,8 @@ flex-basis:0;
 }
 
 .footer-leftlogo {
-margin-left: 10%;
-margin-top: 7%;
+margin-left: 19%;
+margin-top: 22%;
 }
 
 .footer-navigation {
@@ -1093,19 +1093,23 @@ line-height: 22px;
 color: #FFFFFF;
 }
 .footer-col-right1 {
-	margin-left:20px;
+	margin-top: 40px;
 }
 
 .footer-col-right1 p {
+	margin-left: -45px;
 }
 
 .footer-col-right2 {
-	margin-right:20px;
+	margin-top: 40px;
 }
 
 .footer-col-right2 p {
+	margin-right: 65px;
 	text-align:right;
 }
+
+.footer-menu { margin-top: 20%; }
 
 .heading {
 font-family: 'Montserrat', sans-serif;
