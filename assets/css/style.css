@@ -162,7 +162,7 @@ justify-content: center;
 flex-direction: column;
 }
 
-.first-section-iedvesmas-stasti { margin-bottom: 100px; }
+.first-section-iedvesmas-stasti { margin-bottom: 140px; }
 
 .secondSection {
 position: relative;
@@ -250,7 +250,7 @@ text-align: center;
 color: #2F4858;
 }
 
-.third-section-iedvesmas-stasti h2 { padding-top: 100px;}
+.third-section-iedvesmas-stasti h2 { padding-top: 138px;}
 
 .uznemums-heading {
 	padding-top: 75px;
@@ -539,14 +539,16 @@ margin: auto;
 .about-uznemums { text-align: right; }
 
 .about-komanda, .about-uznemums {
+margin: auto;
 font-family: "Montserrat";
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 22px;
-text-align: center;
 color: #2f4858;
 }
+
+.about-komanda { width: 45%; }
 
 .selected-riga { 
 margin-top: 150px;
@@ -589,13 +591,13 @@ color: #ffffff;
 
 .wrapper-stasti {
 	margin: auto;
-	width: 60%;
+	width: 1045px;
 }
 
 .iedvesmas-stasts-number {
 position: absolute;
-right: 5px;
-bottom: -30px;
+right: 15px;
+bottom: -45px;
 font-family: "Oswald";
 font-style: normal;
 font-weight: bold;
@@ -614,14 +616,16 @@ color: #ffffff;
 	position: relative;
 	width: 160px;
 	height: 160px;
-	margin: 5px;
+	margin: 6px;
 	float: left;
 	background-repeat: no-repeat;
 }
 
 .stasts-name {
 	position: relative;
-	padding-top: 40px;
+	margin: auto;
+	padding-top: 42px;
+	width: 50%;
 	font-family: "Oswald";
 font-style: normal;
 font-weight: bold;
@@ -634,7 +638,7 @@ color: #ffffff;
 
 .stasts-coming {
 	position: relative;
-padding-top: 40px;
+padding-top: 35px;
 font-family: "Oswald";
 font-style: normal;
 font-weight: bold;
@@ -688,9 +692,14 @@ height:130px;
 .column-komanda {
 height: 365px;
 width: 289px;
+margin-top: 60px;
 margin-left: 50px;
 background-repeat: no-repeat;
 }
+
+.column-komanda-1 { margin-left: 10px; }
+.column-komanda-2 { margin-left: 10px; }
+.column-komanda-3 { margin-left: 10px; }
 
 .third-section { margin-top: 25px; }
 
