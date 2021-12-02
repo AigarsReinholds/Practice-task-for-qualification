@@ -482,7 +482,7 @@ margin-left: 380px;
 
 .merkis-logo-2 { width: 59%; }
 
-.merkis-logo-img { position: absolute; } 
+.merkis-logo-img { position: relative; } 
 
 .merkis-paragraph-1, .merkis-paragraph-3 { 
 padding-right: 20%; 
@@ -506,8 +506,8 @@ width: 50%;
 }
 
 @media screen and (max-width: 1050px) {
-	.merkis-logo-1, .merkis-logo-2, .merkis-logo-3, .merkis-paragraph-1, .merkis-paragraph-2, .merkis-paragraph-3 
-	{ flex: 0 0 100%; 
+	.merkis-logo-1, .merkis-logo-2, .merkis-logo-3, .merkis-paragraph-1, .merkis-paragraph-2, .merkis-paragraph-3 { 
+	margin: auto;
 	}
 }
 
@@ -596,6 +596,7 @@ display: none;
 
 .komanda-member {
 	position: relative;
+  padding: 0 11% 0 11%;
 margin-top: 225px;
 font-family: "Oswald";
 font-style: normal;
@@ -745,6 +746,7 @@ display: flex;
 flex-direction: column;
 justify-content: flex-end;
 height: 365px;
+width: 261px;
 margin-top: 60px;
 margin-left: 50px;
 background-repeat: no-repeat;
