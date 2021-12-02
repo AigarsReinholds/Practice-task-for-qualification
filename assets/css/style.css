@@ -167,6 +167,18 @@ flex-direction: column;
 
 .first-section-sapnus-atbalsta { margin-bottom: 125px; }
 
+.first-section-sapnus-atbalsta select{
+font-family: "Montserrat";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #2F4858;
+}
+
 .first-section-iedvesmas-stasti { margin-bottom: 140px; }
 
 .secondSection {
@@ -1400,7 +1412,7 @@ font-weight: 500;
 }
 
 /* Zemak footer properties */
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1080px) {
    .footer-navigation, .footer-col-right1{
    display:none;
   }
@@ -1412,7 +1424,7 @@ font-weight: 500;
   }	
  }
 
- @media screen and (max-width: 880px) {
+ @media screen and (max-width: 1080px) {
    .rekviziti-mobile{
    display:block;
   }
@@ -1427,7 +1439,7 @@ font-weight: 500;
   }
  }
 
- @media screen and (max-width: 880px) {
+ @media screen and (max-width: 1080px) {
 	.footer-column {
 	position: relative;
 	width: 100%;
