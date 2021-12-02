@@ -408,7 +408,7 @@ height: 383px;
 
 .wrapper {
 	margin: auto;
-	width:75%
+	width:80%
 }
 
 .wrapper-1 {
@@ -595,9 +595,9 @@ display: none;
 }
 
 .komanda-member {
-	position: relative;
-  padding: 0 11% 0 11%;
-margin-top: 225px;
+position: relative;
+padding: 0 11% 0 11%;
+margin-bottom: -10px;
 font-family: "Oswald";
 font-style: normal;
 font-weight: 500;
@@ -610,6 +610,8 @@ color: #ffffff
 
 .komanda-member-about {
 position: relative;
+margin: auto;
+margin-top: 90%;
 font-family: "Montserrat";
 font-size: 18px;
 font-style: normal;
@@ -622,7 +624,6 @@ color: #ffffff;
 
 .komanda-member-3 { 
 	width:80%; 
-	margin: auto;
 }
 
 .arrow-btn { padding-top: 6px; }
@@ -746,16 +747,15 @@ display: flex;
 flex-direction: column;
 justify-content: flex-end;
 height: 365px;
-width: 261px;
+width: 289px;
 margin-top: 60px;
-margin-left: 50px;
 background-repeat: no-repeat;
 background-size: cover;
 }
 
-.column-komanda-1 { margin-left: 10px; }
-.column-komanda-2 { margin-left: 10px; }
-.column-komanda-3 { margin-left: 10px; }
+.column-komanda-1 { margin-left: 32px; }
+.column-komanda-2 { margin-left: 82px; }
+.column-komanda-3 { margin-left: 82px; }
 
 .third-section { margin-top: 25px; }
 
