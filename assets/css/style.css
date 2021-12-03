@@ -250,10 +250,13 @@ color: #FFFFFF;
 	display: flex;
 }
 
-.sb-background-1 {
-	width: 100%;
+@media screen and (max-width: 1050px){
+.second-section-sapnu-banka div {
+	flex-wrap: wrap;
+	}
 }
 
+.sb-background-1 { width: 100%; }
 .sb-misija { margin-top: 10px; }
 
 .sb-heading, .third-section-iedvesmas-stasti h2 {
@@ -409,6 +412,13 @@ height: 383px;
 .wrapper {
 	margin: auto;
 	width:80%
+}
+
+@media screen and (max-width: 880px) {
+	.wrapper-atbalsta-mobile {
+		margin: auto;
+		width: 50%;
+	}	
 }
 
 .wrapper-1 {
