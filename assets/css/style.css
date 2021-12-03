@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 html {
@@ -79,6 +79,7 @@ line-height: 22px;
 text-align: center;
 list-style:none;
 margin-right:40px;
+padding-top: 30px;
 }
 
 @media screen and (max-width: 880px) {
@@ -772,9 +773,17 @@ width: 289px;
 margin-top: 60px;
 }
 
+@media screen and (max-width: 880px) {
+.column-komanda {
+	margin: 15px auto 15px auto;
+	}
+	.column-komanda-2 { margin-left: auto; }
+}
+
+@media screen and (min-width: 881px) {
 .column-komanda-2 { margin-left: 85px; }
 .column-komanda-3 { margin-left: 82px; }
-
+}
 .third-section { margin-top: 25px; }
 
 .third-section-sapnu-banka, .fifth-section-sapnu-banka {
