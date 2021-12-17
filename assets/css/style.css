@@ -84,11 +84,11 @@ padding-top: 30px;
 
 @media screen and (max-width: 880px) {
 	#LV { display:none;	}
- 
- .lang-mobile {
+}
+
+.lang-mobile {
 	 display: inline-block;
  }
-}
 
 header {
     position: relative;
