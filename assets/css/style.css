@@ -973,6 +973,13 @@ margin:auto;
 width:45%;
 }
 
+@media screen and (max-width: 600px) {
+	.formWrapper {
+		margin: auto;
+		width: 85%;
+	}
+}
+
 .text-input, textarea {
 font-family: 'Montserrat', sans-serif;
 font-weight: normal;
