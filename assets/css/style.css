@@ -1112,10 +1112,10 @@ div.logoRow {
 	float:left;
 }
 
-.leftside-logos { width:59%; }
+.leftside-logos { width:60%; }
 
 .rightside-logos {
-	width:34%;
+	width:40%;
 	float:left;
 }
 
@@ -1130,9 +1130,12 @@ div.logoRow {
   }
 }
 
-.logo1, .logo2, .logo3, .logo4 {
-	display: block;
-	text-align: center;
+.logo1 img { margin-left: 40%; }
+.logo2 img { margin-left: 20%; }
+.logo3 img { margin-left: -12%; }
+.logo4 img {
+	margin-top: -20px;
+	margin-left: 7%; 
 }
 
 .footer {
