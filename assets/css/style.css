@@ -623,6 +623,7 @@ select {
 
 .komanda-member {
 	position: relative;
+	margin-bottom: -20px;
 	padding: 0 15% 0 11%;
 	font-family: "Oswald";
 	font-style: normal;
@@ -768,7 +769,7 @@ div.column-inner { height:130px; }
 	justify-content: flex-end;
 	height: 365px;
 	width: 289px;
-	margin-top: 60px;
+	margin-top: 58px;
 }
 
 @media screen and (max-width: 880px) {
