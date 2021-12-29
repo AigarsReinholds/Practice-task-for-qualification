@@ -87,6 +87,8 @@ li a:active {
 	 display: inline-block;
  }
 
+.menu-item { margin-top: 75px; }
+
 header {
   position: relative;
 	width:100%;
