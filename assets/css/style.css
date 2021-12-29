@@ -320,11 +320,46 @@ select {
 }
 
 @media screen and (max-width: 768px) {
-	.firstImage { height: 200px; }
-	.secondImage { height: 206px; }
-	.thirdImage { height: 102px; }
-	.fourthImage { height: 104px; }
-	.fifthImage { height: 216px; }
+	.firstImage {
+		float:left;
+		width: 24%;		
+		height: 200px;
+		background-repeat: no-repeat;
+		background-size: cover;		
+	}
+	
+	.secondImage {
+		float:left;
+		width: 24.5%;
+		height: 206px;
+		background-repeat: no-repeat;
+		background-size: cover;		
+	}
+	
+	div.thirdFourthImage {
+		width:22%;
+		float:left;
+	}
+	
+	.thirdImage {
+		height: 102px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	.fourthImage {
+		height: 104px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	.fifthImage {
+		float:left;
+		width: 29.5%;
+		height: 216px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
 
 @media screen and (min-width: 769px) {
