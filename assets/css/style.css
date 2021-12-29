@@ -85,6 +85,7 @@ li a:active {
 
 .lang-mobile {
 	 display: inline-block;
+	 padding: 0 45px 0 45px;
  }
 
 .menu-item { margin-top: 75px; }
@@ -1267,10 +1268,10 @@ div.logoRow {
 
 .overlay-content {
   position: relative;
-  top: 15%;
+  top: 1.5%;
   width: 100%;
   text-align: center;
-  margin-top: 30px;
+  margin-left: -105px;
 }
 
 .overlay-content a {
