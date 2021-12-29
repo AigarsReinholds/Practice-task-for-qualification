@@ -1273,12 +1273,11 @@ div.logoRow {
 
 .overlay-content a {
 	font-family: "Montserrat";
+	font-style: normal;
 	font-weight: 500;
-	font-size: 18px;
-	line-height: 22px;
+	font-size: 24px;
+	line-height: 29px;
 	text-align: center;
-	padding: 10px;
-	text-decoration: none;
 	color: #000000;
 	display: block;
 	transition: 0.3s;
@@ -1286,9 +1285,9 @@ div.logoRow {
 
 .overlay .closebtn {
 	position: absolute;
-	top: 0;
-	right:35px;
-	font-size:50px;
+	top: 15px;
+	right: 240px;
+	font-size: 50px;
 	color: #000000;
 }
 
