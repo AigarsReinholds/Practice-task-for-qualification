@@ -360,6 +360,9 @@ select {
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+	.secondSection {
+		height: 225px;
+	}
 }
 
 @media screen and (min-width: 769px) {
