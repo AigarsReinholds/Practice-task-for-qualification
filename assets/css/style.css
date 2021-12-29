@@ -319,7 +319,15 @@ select {
 	width: 100%;
 }
 
-@media screen and (min-width: 881px) {
+@media screen and (max-width: 768px) {
+	.firstImage { height: 200px; }
+	.secondImage { height: 206px; }
+	.thirdImage { height: 102px; }
+	.fourthImage { height: 104px; }
+	.fifthImage { height: 216px; }
+}
+
+@media screen and (min-width: 769px) {
 	div.images {
 		padding-top:10px;
 	}
@@ -1345,7 +1353,7 @@ div.logoRow {
 }
 
 /* Zemak 2 section properties */
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 320px) {
 	.images-mobile {
 		padding-top: 5px;
 	}
