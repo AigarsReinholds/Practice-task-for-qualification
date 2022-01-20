@@ -128,7 +128,15 @@ li a:active {
 	 padding: 0 45px 0 45px;
  }
 
-.menu-item { margin-top: 75px; }
+@media screen and (max-width: 320px) {
+    .mobile-menu { margin-top: -20px; }
+}
+
+.mobile-menu-item { margin-top: 75px; }
+
+@media screen and (max-width: 320px) {
+    .mobile-menu-item { margin-top: 42px; }
+}
 
 header {
   position: relative;
@@ -146,7 +154,11 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-	.sparkleVideo { margin-top: -20px; } 
+	.sparkleVideo { margin-top: -5px; } 
+}
+
+@media screen and (max-width: 320px) {
+	.sparkleVideo { margin-top: -3px; } 
 }
 
 .vectorSparkleVideo{
