@@ -327,6 +327,10 @@ select {
 	background: url(assets/img/ripped.png);
 }
 
+@media screen and (max-width: 768px) {
+    .ripped-bottom { bottom: 7px; }
+}
+
 .ripped-bottom-ideja {
 	position: relative;
 	left: 0;
