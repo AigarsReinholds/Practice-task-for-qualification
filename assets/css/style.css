@@ -1620,6 +1620,15 @@ label span {
 
 .button4:hover { background: #FFDA16; }
 
+@media screen and (max-width: 320px) {
+    .button4 {
+        width: 140px;
+        height: 48px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
 .fifthSection {
 	margin-top:242px;
 	padding-top: 75px;
