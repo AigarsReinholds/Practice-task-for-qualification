@@ -1744,12 +1744,40 @@ label span {
 
 .overlay-logo { margin-left: 62px; }
 
+@media screen and (max-width: 768px) {
+    .overlay-logo {
+        margin-left: 80px;
+        width: 128px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .overlay-logo {
+        margin-left: 20px;
+        width: 76.95px;
+    }
+}
+
 .overlay-content {
   position: relative;
   top: 1.5%;
   width: 100%;
   text-align: center;
   margin-left: -105px;
+}
+
+@media screen and (max-width: 768px) {
+    .overlay-content {
+        top: 10.8%;
+        margin-left: -40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .overlay-content {
+        top: 4%;
+        margin-left: -40px;
+    }
 }
 
 .overlay-content a {
@@ -1764,12 +1792,31 @@ label span {
 	transition: 0.3s;
 }
 
+@media screen and (max-width: 320px) {
+    .overlay-content a {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
 .overlay .closebtn {
 	position: absolute;
 	top: 15px;
 	right: 240px;
 	font-size: 50px;
 	color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .overlay .closebtn { right: 75px; }
+}
+
+@media screen and (max-width: 320px) {
+    .overlay .closebtn {
+        top: 0;
+        right: 20px;
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-height: 450px) {
