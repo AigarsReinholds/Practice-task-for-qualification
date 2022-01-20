@@ -259,6 +259,21 @@ header {
 	color: #2F4858;
 }
 
+@media screen and (max-width: 768px) {
+    .first-section-piesaki-sapni p {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .first-section-piesaki-sapni p {
+        margin-top: 50px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
 .first-section-sapnu-banka {
 	display: flex;
 	align-items: center;
@@ -301,6 +316,10 @@ header {
 	text-align: center;
 }
 
+@media screen and (max-width: 320px) {
+    .second-section-piesaki-sapni { margin-bottom: 125px; }    
+}
+
 .second-section-piesaki-sapni h3 {
 	margin-top: 48px;
 	margin-bottom: 23px;
@@ -311,6 +330,15 @@ header {
 	line-height: 44px;
 	text-align: center;
 	color: #2F4858;
+}
+
+@media screen and (max-width: 320px) {
+    .second-section-piesaki-sapni h3 {
+        margin-top: 25px;
+        margin-bottom: 15px;
+        font-size: 18px;
+        line-height: 27px;
+    }
 }
 
 .second-section-piesaki-sapni p {
@@ -324,6 +352,17 @@ header {
 	line-height: 22px;
 	text-align: center;
 	color: #2F4858;
+}
+
+@media screen and (max-width: 768px) {
+    .second-section-piesaki-sapni p { width: 80%; }
+}
+
+@media screen and (max-width: 320px) {
+    .second-section-piesaki-sapni p {
+        font-size: 12px;
+        line-height: 15px;
+    }
 }
 
 .second-section-ideja {
@@ -508,7 +547,7 @@ select {
 }
 
 @media screen and (min-width: 769px) {
-	div.firstImage {
+	.firstImage {
 		float:left;
 		margin-top: 8px;
 		width: 24%;
@@ -525,8 +564,8 @@ select {
 		background-size: cover;
 	}
 
-	div.secondImage {
-		float:left;
+	.secondImage {
+		float: left;
 		margin-top: 13px;
 		width: 24.5%;
 		height: 364px;
@@ -535,7 +574,7 @@ select {
 	}
 
 	.second-third-image {
-		float:left;
+		float: left;
 		width: 22%;
 	}
 
@@ -545,12 +584,12 @@ select {
 		background-size: cover;
 	}
 
-	div.thirdFourthImage {
+	.thirdFourthImage {
 		width:22%;
 		float:left;
 	}
 
-	div.thirdImage {
+	.thirdImage {
 		height: 180px;
 		margin-top: 13px;
 		background-repeat: no-repeat;
@@ -563,7 +602,7 @@ select {
 		background-size: cover;
 	}
 
-	div.fourthImage {
+	.fourthImage {
 		height: 184px;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -577,7 +616,7 @@ select {
 		background-size: cover;
 	}
 
-	div.fifthImage {
+	.fifthImage {
 		float:left;
 		margin-top: -5px;
 		width: 29.5%;
@@ -590,6 +629,53 @@ select {
 		float:left; 
 		width: 35%; 
 		height: 376px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	} 
+}
+
+@media screen and (max-width: 768px) {
+    .first-image {
+      float: left;
+      width: 21%;
+      height: 199px;
+      margin-top: 10px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+	.second-third-image {
+		float: left;
+		width: 22%;
+	}
+
+	.second-image {
+		height: 106px;
+		margin-top: 10px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.third-image {
+		height: 105px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.fourth-image {
+		float: left;
+		width: 22%;
+		height: 211px;
+		margin-top: 10px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	 .fifth-image {
+		float: left; 
+		width: 35%; 
+		height: 211px;
+		margin-top: 10px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	} 
@@ -1009,8 +1095,35 @@ select {
 
 .col-personigais-sapnis { margin-right: 180px; }
 
-@media screen and (max-width: 860px) {
-	.column-sapnis { margin-top: 100px; }
+@media screen and (max-width: 768px) {
+    .col-personigais-sapnis { margin-right: 0; }  
+}
+
+@media screen and (max-width: 320px) {
+    .col-personigais-sapnis img { height: 190px; }
+}
+
+@media screen and (max-width: 320px) {
+    .col-personigais-sapnis p { width: 88%; }
+}
+
+@media screen and (max-width: 768px) {
+	.column-sapnis { margin-top: 165px; }
+}
+
+@media screen and (max-width: 320px) {
+	.column-sapnis { margin-top: 85px; }
+}
+
+@media screen and (max-width: 320px) {
+	.column-sapnis img { 
+	    height: 185.7px; 
+	    margin-left: 40px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+    .column-sapnis p { width: 88%; }
 }
 
 .column-sb {
@@ -1192,8 +1305,18 @@ select {
 	margin-bottom: 100px;
 }
 
-@media screen and (max-width: 880px) {
-.third-section-piesaki-sapni { height: 354px; }
+@media screen and (max-width: 768px) {
+    .third-section-piesaki-sapni { 
+        height: 235px; 
+        margin-bottom: 160px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .third-section-piesaki-sapni { 
+        height: 335px; 
+        margin-bottom: 130px;
+    }
 }
 
 .button-sapnis, .collapse-btn {
@@ -1217,6 +1340,8 @@ select {
 	color: #FFFFFF;
 	background: #FFA800;
 }
+
+.button-sapnis:hover { background: #FFDA16; }
 
 .collapse-btn { 
 	position: relative;
