@@ -155,6 +155,10 @@ header {
 	width:100%;
 }
 
+@media screen and (max-width: 768px) {
+    .vectorSparkleVideo { top: 0; }
+}
+
 .playButton {
 	position: absolute;
 	width:9%;
@@ -164,8 +168,15 @@ header {
 
 @media screen and (max-width: 768px) {
 	.playButton { 
-		width: 16%;
-		margin-top: -15px; 
+		width: 17%;
+		margin-top: 10px; 
+	} 
+}
+
+@media screen and (max-width: 320px) {
+	.playButton { 
+		width: 22%;
+		margin-top: 0; 
 	} 
 }
 
