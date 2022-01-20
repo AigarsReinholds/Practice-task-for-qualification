@@ -224,6 +224,14 @@ header {
 	height:400px;
 }
 
+@media screen and (max-width: 768px) {
+    .secondSection { height: 225px; }
+}
+
+@media screen and (max-width: 320px) {
+    .secondSection { height: 352px; }
+}
+
 .second-section-piesaki-sapni {
 	margin-top: 92px;
 	margin-bottom: 150px;
@@ -395,9 +403,6 @@ select {
 		height: 216px;
 		background-repeat: no-repeat;
 		background-size: cover;
-	}
-	.secondSection {
-		height: 225px;
 	}
 }
 
@@ -1644,8 +1649,8 @@ label span {
 
 @media screen and (max-width: 768px) {
     .copyright { display: none; }
-}	
-	
+}
+
 @media screen and (max-width: 768px) {
     .copyright-mobile {
         margin-top: 15px;
@@ -1863,44 +1868,50 @@ label span {
 
 /* Zemak 2 section properties */
 @media only screen and (max-width: 320px) {
-	.images-mobile {
-		padding-top: 5px;
+	.images-mobile { padding-top: 5px; }
+  
+  .firstImage-mobile {
+		float:left;
+		width: 53%;
+		height: 183px;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
+  
+  .secondImage-mobile {
+		float:left;
+		width: 47%;
+		height: 183px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+  
 	.thirdFourthImage-mobile {
-		width: 40%;
+		width: 43%;
 		float:left;
 	}
+  
 	.thirdImage-mobile {
 		height: 87px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+  
 	.fourthImage-mobile {
 		height: 87px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+  
 	.fifthImage-mobile {
 		float:right;
-		width: 60%;
+		width: 57%;
 		height: 174px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	.firstImage-mobile {
-		float:left;
-		width: 51%;
-		height: 183px;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	.secondImage-mobile {
-		float:left;
-		width: 49%;
-		height: 183px;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
+	
+	
 	.secondSection {
 		height: 363px;
 	}
