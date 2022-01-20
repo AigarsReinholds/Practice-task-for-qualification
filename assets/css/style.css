@@ -2224,43 +2224,48 @@ label span {
 	.secondSection {
 		height: 363px;
 	}
-	/* Zemāk piesaki-sapni bilžu galerija */ 
-	.fourth-image-mobile { 
+	/* Zemāk piesaki-sapni bilžu galerija */
+
+  .first-image-mobile {
 		float: left;
-		width: 33%;
-		height: 154px;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	 
-	.fifth-image-mobile {
-		float: left;
-		width: 67%;
-		height: 154px;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	.first-image-mobile {
-		float: left;
-		width: 45%;
+		width: 49%;
 		height: 195px;
+    margin-top: -10px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-		
-	.second-third-image-mobile {
+  
+  .second-third-image-mobile {
 		float: left;
-		width: 55%;
+		width: 51%;
 	}
-		
-	.second-image-mobile {
+  
+  .second-image-mobile {
 		height: 97px;
+    margin-top: -10px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 		
 	.third-image-mobile {
 		height: 98px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+  
+	.fourth-image-mobile { 
+		float: left;
+		width: 38%;
+		height: 154px;
+    margin-top: -5px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	 
+	.fifth-image-mobile {
+		float: left;
+		width: 62%;
+		height: 154px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
