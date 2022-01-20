@@ -1368,7 +1368,7 @@ select {
 	}
 }
 
-.fourthSection h2, .fourth-section-piesaki-sapni h2, .second-section-uznemejiem h2 {
+.fourthSection h2, .second-section-uznemejiem h2 {
 	margin-top:150px;
 	margin-bottom:50px;
 	font-family: "Oswald";
@@ -1395,6 +1395,17 @@ select {
     }
 }
 
+.fourth-section-piesaki-sapni h2 {
+  margin-top:150px;
+	margin-bottom:50px;
+	font-family: "Oswald";
+	font-weight:500;
+	font-size: 30px;
+	line-height: 44px;
+	text-align: center;
+	color: #2F4858;
+}
+
 .mobile-title {
 	display: none;
 }
@@ -1405,6 +1416,20 @@ select {
 }
 
 .fourth-section-piesaki-sapni, .second-section-uznemejiem { margin-bottom: 405px; }
+
+@media screen and (max-width: 768px) {
+    .fourth-section-piesaki-sapni {
+        margin-top: -28px;
+        margin-bottom: 300px; 
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .fourth-section-piesaki-sapni { 
+        margin-top: 5px;
+        margin-bottom: 500px; 
+    }
+}
 
 .sutit-sapni-1 {
 	margin: auto;
