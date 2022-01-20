@@ -1897,25 +1897,43 @@ label span {
   }
  }
 
-@media screen and (min-width: 881px) {
-  .copyright-mobile, .rekviziti-mobile{
-		display:none;
-  }	
+@media screen and (min-width: 769px) {
+  .copyright-mobile, .rekviziti-mobile { display:none; }	
 }
 
-@media screen and (max-width: 1080px) {
-  .rekviziti-mobile{
-		display:block;
+@media screen and (max-width: 768px) {
+  .rekviziti-mobile {
+		display: block;
+		margin-top: -8px;
+		margin-right: 60px;
+		text-align: right;
   }
+}
 
-  .rekviziti {
-		font-family: "Montserrat";
-		font-style: normal;
-		font-weight: bold;
-		font-size: 14px;
-		line-height: 17px;
-		color: #FFFFFF;
+@media screen and (max-width: 320px) {
+  .rekviziti-mobile {
+      margin-top: 17px;
+      text-align: left
   }
+}
+
+@media screen and (max-width: 768px) {
+     .rekviziti {
+		font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: right;
+        color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 320px) {
+    .rekviziti {
+        font-size: 14px;
+        line-height: 17px;
+    }
 }
 
  @media screen and (max-width: 1080px) {
