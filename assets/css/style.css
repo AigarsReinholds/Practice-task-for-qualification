@@ -404,7 +404,13 @@ select {
 	div.images {
 		padding-top:10px;
 	}
+}
 
+@media screen and (max-width: 320px) {
+    .images { display: none; } 
+}
+
+@media screen and (min-width: 769px) {
 	div.firstImage {
 		float:left;
 		margin-top: 8px;
@@ -568,6 +574,16 @@ select {
 
 @media screen and (max-width: 768px) {
 	.about-sparkleheart { width: 82%; } 
+}
+
+@media screen and (max-width: 320px) {
+    .about-sparkleheart {
+        margin-top: 80px;
+        margin-bottom: 85px;
+        width: 90%;
+        font-size: 12px;
+        line-height: 15px;
+    }
 }
 
 .about-juris {
