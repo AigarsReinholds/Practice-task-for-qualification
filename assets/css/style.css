@@ -1643,6 +1643,10 @@ label span {
 }
 
 @media screen and (max-width: 768px) {
+    .copyright { display: none; }
+}	
+	
+@media screen and (max-width: 768px) {
     .copyright-mobile {
         margin-top: 15px;
         margin-left: 80px;
