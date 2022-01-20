@@ -24,6 +24,21 @@ section {
 	background: url(assets/img/BlackLogo.jpg);
 }
 
+@media screen and (max-width: 768px) {
+    .navigationLogo {
+        margin-top: 25px;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navigationLogo img {
+        width: 128px;
+        margin-top: -15px;
+        margin-left: 20px;
+    }
+}
+
 .navigation {
 	position: relative;
 	display:flex;
