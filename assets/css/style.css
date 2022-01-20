@@ -1360,7 +1360,6 @@ label span {
 
 .logoRow {
 	display: flex;
-	flex-wrap: wrap;
 	width:100%;
 	margin-top: 80px;
 }
@@ -1371,7 +1370,7 @@ label span {
 
 @media screen and (max-width: 320px) {
     .logoRow {
-        margin-top: 60px;
+      margin-top: 60px;
 	    flex-wrap: wrap;
     }
 }
