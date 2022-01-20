@@ -954,6 +954,13 @@ select {
 }
 .third-section { margin-top: 25px; }
 
+@media screen and (max-width: 320px) {
+    .third-section { 
+        margin-top: 130px; 
+        margin-bottom: 125px;
+    }
+}
+
 .third-section-sapnu-banka, .fifth-section-sapnu-banka {
 	padding-top: 100px;
 	padding-bottom: 60px;
