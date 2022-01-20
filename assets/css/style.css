@@ -1139,10 +1139,17 @@ select {
 	width:45%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 	.formWrapper {
 		margin: auto;
-		width: 85%;
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.formWrapper {
+		margin: auto;
+		width: 88%;
 	}
 }
 
