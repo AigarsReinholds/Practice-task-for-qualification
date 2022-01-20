@@ -62,6 +62,14 @@ section {
 	background: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+    .navigation { height: 74.01px; }
+}
+
+@media screen and (max-width: 320px) {
+    .navigation { height: 51.72px; }
+}
+
 .navigation-inner {
 	display: flex;
 	flex-grow: 1;
@@ -71,6 +79,10 @@ section {
 	display: flex;
 	flow-direction:row;
 	padding-top: 31px;
+}
+
+@media screen and (max-width: 1366px) {
+    .navigation-inner2 { margin-left: -3px; }
 }
 
 .navigation-item {
@@ -1735,6 +1747,13 @@ label span {
 	cursor: pointer;
 }
 
+@media screen and (max-width: 320px) {
+   .navigation-toggler {
+       top: 0;
+       right: 0;
+   } 
+}
+
 .navigation-toggler-icon {
 	display: inline-block;
 	width: 33px;
@@ -1742,6 +1761,15 @@ label span {
 	margin-right: 60px;
 	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 	background-size: 100% 100%;
+}
+
+@media screen and (max-width: 320px) {
+    .navigation-toggler-icon {
+        width: 25px;
+        height: 45px;
+        margin-top: -15px;
+        margin-right: 10px;
+    }
 }
 
 .overlay {
