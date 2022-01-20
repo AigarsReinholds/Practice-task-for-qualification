@@ -24,6 +24,7 @@ section {
 	background: url(assets/img/BlackLogo.jpg);
 }
 
+
 @media screen and (max-width: 768px) {
     .navigationLogo {
         margin-top: 25px;
@@ -936,6 +937,27 @@ div.column-inner { height:130px; }
 	color: #2f4858;
 }
 
+@media screen and (max-width: 768px) {
+    .third-section h3 {
+        width: 60%;
+        margin-left: 80px;
+        font-family: "Oswald";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .third-section h3 {
+        width: 80%;
+        margin-top: 60px;
+        margin-left: 35px;
+    }
+}
+
 .sixth-section-sapnu-banka { margin-bottom: 310px; }
 
 .third-section-ideja {  margin-bottom: 160px; }
@@ -1044,6 +1066,22 @@ div.column-inner { height:130px; }
 	color: #2F4858;
 }
 
+@media screen and (max-width: 768px) {
+    .fourthSection h2 { 
+        margin-top: 170px;
+        margin-bottom: 55px;   
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .fourthSection h2 { 
+        margin-top: 75px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 36px;    
+    }
+}
+
 .mobile-title {
 	display: none;
 }
@@ -1112,6 +1150,38 @@ div.column-inner { height:130px; }
 	color: #2F4858;
 }
 
+@media screen and (max-width: 768px) {
+    .text-input, textarea { 
+    	height: 40px;
+    	margin-bottom: 0;
+    	padding-top: 8px;
+    	padding-left: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .text-input, textarea {
+        height: 35px;
+        margin-bottom: -9px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+.textarea {
+	display:block;
+	height:232px;
+	resize: none;
+}
+
+@media screen and (max-width: 768px) {
+    .textarea { height: 230px; }
+}
+
+@media screen and (max-width: 320px) {
+    .textarea { height: 150px; }
+}
+
 div.columnLeft1 {
 	margin-right: 45px;
 }
@@ -1122,12 +1192,6 @@ div.columnLeft1 {
 	}
 }
 
-.textarea {
-	display:block;
-	height:232px;
-	resize: none;
-}
-
 p.mustfill {
 	margin-top: 20px;
 	font-family: "Montserrat";
@@ -1136,6 +1200,14 @@ p.mustfill {
 	line-height: 17px;
 	color: #2F4858;
 }
+
+@media screen and (max-width: 320px) {
+    p.mustfill {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
 .checkbox{
 	opacity:0;
 	margin-top:12px;
@@ -1160,6 +1232,18 @@ p.mustfill {
 	line-height: 17px;
 	color: #2F4858;
 }
+
+@media screen and (max-width: 768px) {
+    .list-item { margin-top: -10px; }
+}
+
+@media screen and (max-width: 320px) {
+    .list-item {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
 label {
 	width: 96%;
 	display: block;
@@ -1205,6 +1289,20 @@ label span {
 	background-size: cover;
 }
 
+@media screen and (max-width: 768px) {
+    .fifthSection { 
+        height: 299.85px; 
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .fifthSection { 
+        height: 732.05px;
+        padding-top: 10px;
+    }
+}
+
 .rippedUp3 { width:100%; }
 
 .fifthSection h3{
@@ -1216,11 +1314,26 @@ label span {
 	color: #2F4858;
 } 
 
-div.logoRow {
+@media screen and (max-width: 320px) {
+    .fifthSection h3 { margin-top: 95px;}
+}
+
+.logoRow {
 	display: flex;
 	flex-wrap: wrap;
 	width:100%;
 	margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .logoRow { margin-top: 35px; }
+}
+
+@media screen and (max-width: 320px) {
+    .logoRow {
+        margin-top: 60px;
+	    flex-wrap: wrap;
+    }
 }
 
 .logoColumn {
@@ -1230,28 +1343,91 @@ div.logoRow {
 
 .leftside-logos { width:60%; }
 
+@media screen and (max-width: 880px) {
+  .leftside-logos { width: 100%; }
+}
+
 .rightside-logos {
 	width:40%;
 	float:left;
 }
 
 @media screen and (max-width: 880px) {
-  .leftside-logos { width: 100%; }
-
-  .logocolumn { width: 50%; }
-
-  .rightside-logos {
-   width: 100%;
-   margin-top: 25px;
+	.rightside-logos {
+		width: 100%;
+		margin-top: 25px;
   }
+
+@media screen and (max-width: 320px) {
+    .rightside-logos { margin-top: 35px; }
+}
+
+@media screen and (max-width: 880px) {
+  .logocolumn { width: 50%; }
 }
 
 .logo1 img { margin-left: 40%; }
+
 .logo2 img { margin-left: 20%; }
+
 .logo3 img { margin-left: -12%; }
+
 .logo4 img {
 	margin-top: -20px;
 	margin-left: 7%; 
+}
+
+@media screen and (max-width: 768px) {
+    .logo1 img {
+        width: 144px;
+        height: 47px;
+    }
+    
+    .logo2 img {
+        width: 123px;
+		height: 47px;
+		margin-left: 43%;
+    }
+    
+    .logo3 img {
+		width: 142px;
+		height: 47px;
+		margin-left: 33%;
+    }
+    
+    .logo4 img {
+        width: 49px;
+		height: 71px;
+		margin-top: -10px;
+		margin-left: 33%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo1 img {
+        width: 130px;
+        height: 44px;
+        margin-left: 15%;
+    }
+    
+    .logo2 img {
+        width: 131px;
+		height: 51px;
+		margin-left: 5%;
+    }
+    
+    .logo3 img {
+		width: 131px;
+		height: 44px;
+		margin-left: 13%;
+    }
+    
+    .logo4 img {
+        width: 48px;
+		height: 67px;
+		margin-top: -5px;
+		margin-left: 32%;
+    }
 }
 
 .footer {
