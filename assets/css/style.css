@@ -1435,14 +1435,57 @@ label span {
 	background-size: cover;
 }
 
+@media screen and (max-width: 768px) {
+    .footer { margin-top: -90px; }
+}
+
+@media screen and (max-width: 320px) {
+    .footer { 
+        margin-top: -350px;
+        background-size: cover;
+    }
+}
+
 .footer-column {
 	flex-grow:1;
 	flex-basis:0;
 }
 
+@media screen and (max-width: 768px) {
+	.footer-column {
+		position: relative;
+		width: 100%;
+		padding-right: 20px;
+		padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+	.footer-column {
+	    padding-right: 15px;
+	    padding-left: 15px;
+    }
+}
+
 .footer-leftlogo {
 	margin-left: 19%;
 	margin-top: 22%;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-leftlogo {
+        width: 162px;
+        height: 162px;
+        margin-top: 23%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer-leftlogo {
+        width: 100px; 
+        height: 100px;
+        margin-left: 0;
+    }
 }
 
 .footer-navigation { margin-top:5px; }
@@ -1457,24 +1500,71 @@ label span {
 	color: #FFFFFF;
 }
 
+@media screen and (max-width: 320px) {
+    .footer-text {
+        margin-top: -4px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
 .footer-col-right1 { margin-top: 43px; }
 
 .footer-col-right1 p { margin-left: -38px; }
 
 .footer-col-right2 { margin-top: 43px; }
 
+@media screen and (max-width: 768px) {
+   .footer-col-right2 { margin-top: 130px; }
+}
+
+@media screen and (max-width: 320px) {
+   .footer-col-right2 { 
+       margin-top: 40px; 
+       margin-left: 5px;
+   }
+}
+
 .footer-col-right2 p {
 	margin-right: 58px;
 	text-align:right;
 }
 
+@media screen and (max-width: 320px) {
+    .footer-col-right2 p { text-align: left; }
+}
+
 .footer-menu { margin-top: 66px; }
 
-.heading {
+.heading, .heading-tablet {
 	font-family: "Montserrat";
 	font-size: 24px;
 	line-height: 29px;
 	color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .heading { display: none; }
+}
+
+@media screen and (max-width: 320px) {
+    .heading, .heading-tablet {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+.heading-tablet {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+@media screen and (min-width: 769px) {
+    .heading-tablet { display: none; }    
+}
+
+@media screen and (max-width: 320px) {
+    .heading-tablet { margin-left: 5px; }
 }
 
 .footer-icon {
@@ -1485,12 +1575,54 @@ label span {
 
 .footer-icon-1 { margin-right: 58px; }
 
+@media screen and (max-width: 768px) {
+    .footer-icon-1 { 
+        width: 25px;
+        height: 25px;
+    }
+    
+    .footer-icon-2 { 
+        width: 12.5px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer-icon {
+        float: left;
+        margin-right: 20px;
+        margin-left: 5px;
+    }
+}
+
 .copyright, .copyright-mobile {
 	margin-left: 60px;
 	font-family: "Montserrat";
 	font-size: 14px;
 	line-height: 17px;
 	color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .copyright-mobile {
+        margin-top: 15px;
+        margin-left: 80px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ffffff;    
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .copyright-mobile {
+        margin-top: 95px;
+        margin-left: 20px;
+        font-size: 11px;
+        line-height: 13px;
+    }
 }
 
 .privatuma-politika {
@@ -1501,6 +1633,28 @@ label span {
 	line-height: 17px;
 	float:right;
 	color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .privatuma-politika {
+        margin-right: 80px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .privatuma-politika {
+        float: left;
+        margin-top: -5px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        font-size: 11px;
+        line-height: 13px;
+    }
 }
 
 .footer-bottom { 
