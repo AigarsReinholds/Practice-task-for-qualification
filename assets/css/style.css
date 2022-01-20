@@ -504,6 +504,13 @@ select {
 	width:80%
 }
 
+@media screen and (max-width: 768px) {
+    .wrapper { 
+        width: 100%;
+        margin: auto;
+    }
+}
+
 @media screen and (max-width: 880px) {
 	.wrapper-atbalsta-mobile {
 		margin: auto;
