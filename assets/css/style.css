@@ -1259,6 +1259,25 @@ label span {
 
 }
 
+@media screen and (max-width: 768px) {
+    .text-sapnotajiem, .text-uznemejiem { display: none; }
+    
+    .text-sapnotajiem-tablet, .text-uznemejiem-tablet { display: block; }
+}
+
+@media screen and (min-width: 769px) {
+    .text-sapnotajiem-tablet, .text-uznemejiem-tablet { display: none; }
+}
+
+@media screen and (max-width: 320px) {
+    .text-sapnotajiem-mobile, .text-uznemejiem-mobile { 
+        display: block; 
+        width: 80%;
+    }
+    
+    .text-sapnotajiem-tablet, .text-uznemejiem-tablet { display: none; }
+}
+
 .button4 {
 	position: absolute;
 	width: 182px;
