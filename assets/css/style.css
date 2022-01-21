@@ -322,7 +322,19 @@ header {
 	flex-direction: column;
 }
 
-.first-section-sapnus-atbalsta { margin-bottom: 125px; }
+.first-section-sapnus-atbalsta { margin-bottom: 60px; }
+
+@media screen and (max-width: 768px) {
+    .first-section-sapnus-atbalsta { margin-bottom: 70px; }
+}
+
+@media screen and (max-width: 320px) {
+    .first-section-sapnus-atbalsta { margin-bottom: 80px; }
+}
+
+@media screen and (max-width: 320px) {
+    .first-section-sapnus-atbalsta h1 { margin-bottom: 30px; }
+}
 
 .first-section-sapnus-atbalsta select{
 	font-family: "Montserrat";
@@ -334,6 +346,13 @@ header {
 	align-items: center;
 	letter-spacing: -0.015em;
 	color: #2F4858;
+}
+
+@media screen and (max-width: 320px) {
+    .first-section-sapnus-atbalsta select {
+        font-size: 14px;
+        line-height: 17px;
+    }
 }
 
 .first-section-iedvesmas-stasti { margin-bottom: 140px; }
@@ -476,6 +495,24 @@ header {
 	}
 }
 
+.second-section-sapnus-atbalsta {
+    position: relative;
+    height: 650px;
+    margin-bottom: 125px; 
+    z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+    .second-section-sapnus-atbalsta {
+        height: 785px;
+        margin-bottom: 85px; 
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .second-section-sapnus-atbalsta { margin-bottom: 100px; }
+}
+
 .fourth-section-sapnu-banka {
 	margin-top: 150px;
 	margin-bottom: 155px;
@@ -521,6 +558,24 @@ header {
 	line-height: 22px;
 	letter-spacing: -0.015em;
 	color: #FFA800;
+}
+
+@media screen and (max-width: 768px) {
+    .uznemums-heading { padding-top: 68px; }
+}
+
+@media screen and (max-width: 320px) {
+    .uznemums-heading {
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 17px;        
+    }
+}
+
+.map { overflow: hidden; }
+
+@media screen and (max-width: 768px) {
+    .map { height: 812px; }
 }
 
 select {
@@ -1200,7 +1255,31 @@ select {
     }
 }
 
-.uznemums-name { 
+.uznemuma-logo { margin-left: 132px; }
+
+@media screen and (max-width: 768px) { 
+    .uznemuma-logo { margin-left: 80px; }
+}
+
+@media screen and (max-width: 768px) {
+    .uznemuma-logo-1 {
+        width: 98px;
+        height: 98px;
+    }
+}
+
+.uznemuma-logo-2 { margin-top: -15px; }
+
+@media screen and (max-width: 768px) {
+    .uznemuma-logo-2 {
+        width: 98px;
+        height: 80px;
+        margin-top: -10px;
+    }
+}
+
+.uznemums-name {
+  margin-left: 95px;
 	padding-top: 27px;	
 	font-family: "Montserrat";
 	font-style: normal;
@@ -1209,6 +1288,54 @@ select {
 	line-height: 29px;
 	text-align: center;
 	color: #2f4858;
+}
+
+@media screen and (max-width: 768px) {
+    .uznemums-name-1 { margin-left: 30px; }
+}
+
+.uznemums-name-2 { padding-top: 0; }
+
+@media screen and (max-width: 768px) {
+    .uznemums-name-2 {
+        padding-top: 25px;
+        margin-top: -10px;
+        margin-left: 30px; 
+    }
+}
+
+.uznemums-name-1, .about-uznemums-1 { padding-top: 30px; }
+
+@media screen and (max-width: 768px) {
+    .uznemums-name-1, .about-uznemums-1 { padding-top: 20px; }
+}
+
+.about-uznemums, .about-uznemums-tablet {
+	margin: auto 80px auto auto;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: right;
+	color: #2f4858;
+}
+
+
+.about-uznemums-2 { margin-top: 15px; }
+
+@media screen and (max-width: 768px) {
+    .about-uznemums-2 { display: none; }
+    
+    .about-uznemums-tablet { 
+        display: block;
+        margin-top: -5px;
+        margin-right: 80px; 
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .about-uznemums-tablet { display: none; }
 }
 
 .about-sapni-paragraph-1 { 
@@ -1246,13 +1373,8 @@ select {
 	margin: auto;
 	width: 60%;
 }
-.uznemums-name { 
-	margin: auto;
-}
 
-.about-uznemums { text-align: right; }
-
-.about-komanda, .about-uznemums {
+.about-komanda {
 	margin: auto;
 	font-family: "Montserrat";
 	font-style: normal;
