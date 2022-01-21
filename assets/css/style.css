@@ -1019,13 +1019,6 @@ select {
     }
 }
 
-@media screen and (max-width: 600px) {
- .merkis-paragraph-1, .merkis-paragraph-2, .merkis-paragraph-3 { 
-		width: 100%;
-		margin: 0 auto;
-	}
-}
-
 .atlasis-logo-1 { margin-left: 20px; }
 
 @media screen and (max-width: 768px) {
