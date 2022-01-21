@@ -1395,6 +1395,15 @@ select {
 	color: #2F4858;
 }
 
+@media screen and (max-width: 320px) {
+  .fourth-section-piesaki-sapni h2 { 
+      margin-top: 75px;
+      margin-bottom: 30px;
+      font-size: 24px;
+      line-height: 36px;    
+    }
+}
+
 .mobile-title {
 	display: none;
 }
@@ -1579,7 +1588,7 @@ p.mustfill {
 }
 
 label {
-	width: 96%;
+	width: 95%;
 	display: block;
 	white-space: nowrap;
 }
