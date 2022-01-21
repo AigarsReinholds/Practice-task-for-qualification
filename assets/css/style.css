@@ -907,11 +907,23 @@ select {
 }
 
 .merkis-logo-1, .merkis-logo-3 {
-	width: 15%;
 	margin-left: 380px;
 }
 
-.merkis-logo-2 { width: 59%; }
+@media screen and (max-width: 768px) {
+    .merkis-logo-1, .merkis-logo-3 { margin-left: 110px; }
+}
+
+@media screen and (max-width: 320px) {
+    .merkis-logo-1, .merkis-logo-3 { margin-left: 100px; }
+}
+
+@media screen and (max-width: 320px) {
+    .merkis-logo-2 {
+        order: 1;
+        margin-left: 100px;
+    }
+}
 
 .merkis-logo-img { 
   position: relative; 
@@ -920,10 +932,27 @@ select {
   height: auto;
 } 
 
+@media screen and (max-width: 320px) {
+    .merkis-logo-1 img {
+        width: 118px;
+        height: 118px;
+    }
+    
+    .merkis-logo-2 img {
+        width: 118px;
+        height: 103px;
+    }
+    
+    .merkis-logo-3 img {
+        width: 118px;
+        height: 79px;
+    }
+}
+
 .merkis-paragraph-1, .merkis-paragraph-3 { 
     width: 40%;
     padding-top: 12px;
-	padding-left: 1%; 
+    padding-left: 1%; 
 }
 
 .merkis-paragraph-2 { 
@@ -990,20 +1019,10 @@ select {
     }
 }
 
-@media screen and (max-width: 1050px) {
-	.merkis-logo-1, .merkis-logo-2, .merkis-logo-3, .merkis-paragraph-1, .merkis-paragraph-2, .merkis-paragraph-3 { 
-		margin: auto;
-	}
-}
-
 @media screen and (max-width: 600px) {
  .merkis-paragraph-1, .merkis-paragraph-2, .merkis-paragraph-3 { 
 		width: 100%;
 		margin: 0 auto;
-	}
-	
-	.merkis-logo-1, .merkis-logo-2, .merkis-logo-3 {
-		width: 33%;
 	}
 }
 
