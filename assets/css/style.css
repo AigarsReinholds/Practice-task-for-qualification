@@ -2037,6 +2037,21 @@ label span {
 	clear: both; 
 }
 
+.scroll-down, .scroll-down-appear {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	top: 150px;
+	right:15px;
+	z-index:4;
+}
+
+.scroll-down { visibility: hidden; }
+
+.scroll-down-appear { visibility: visible; }
+
+.scrollDown-icon:hover { color: #FFDA16; }	
+	
 /* Zemāk mobile view properties*/
 
 .navigation-toggler {
