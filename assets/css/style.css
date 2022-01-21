@@ -1056,7 +1056,24 @@ select {
 	.about-sapnus-atlasis-paragraph { margin: auto; }
 }
 
-.group-19-img { margin-right: 30px; }
+@media screen and (max-width: 320px) {
+    .img-group-14 {
+        width: 269px;
+        margin-bottom: -10px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .img-group-19 { margin-right: 35px; }
+}
+
+@media screen and (max-width: 320px) {
+    .img-group-19 {
+        width: 280px;
+        margin-right: 0;
+    }
+}
+
 
 .about-merkis-1, .about-merkis-3 {
 	margin-left: 45px;
