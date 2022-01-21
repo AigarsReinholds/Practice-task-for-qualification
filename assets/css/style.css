@@ -1388,6 +1388,14 @@ select {
 	width: 60%;
 }
 
+@media screen and (max-width: 768px) {
+    .about-sapnus-atbalsta { width: 80%; }
+}
+
+@media screen and (max-width: 320px) {
+    .about-sapnus-atbalsta { width: 90%; }
+}
+
 .about-komanda {
 	margin: auto;
 	font-family: "Montserrat";
