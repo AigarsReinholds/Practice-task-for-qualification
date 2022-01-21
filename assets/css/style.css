@@ -81,10 +81,6 @@ section {
 	padding-top: 31px;
 }
 
-@media screen and (max-width: 1366px) {
-    .navigation-inner2 { margin-left: -3px; }
-}
-
 .navigation-item {
 	display: block;
 	font-family: "Montserrat";
