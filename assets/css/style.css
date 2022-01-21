@@ -448,6 +448,7 @@ header {
 }
 
 .sb-background-1 { width: 100%; }
+
 .sb-misija { margin-top: 10px; }
 
 .sb-heading, .third-section-iedvesmas-stasti h2 {
@@ -458,6 +459,13 @@ header {
 	line-height: 44px;
 	text-align: center;
 	color: #2F4858;
+}
+
+@media screen and (max-width: 320px) {
+    .sb-heading {
+        font-size: 24px;
+        line-height: 36px;
+    }
 }
 
 .third-section-iedvesmas-stasti h2 { padding-top: 138px;}
@@ -880,7 +888,7 @@ select {
 
 .about-sapnus-atlasis-paragraph {
 	margin: auto;
-	width: 56%;
+	width: 55%;
 }
 
 .paragr-1 { margin-right: 115px; }
@@ -1141,6 +1149,10 @@ select {
 .column-sb {
 	padding-top: 38px;	
 	text-align:center; 
+}
+
+@media screen and (max-width: 320px) {
+    .column-sb { padding-top: 48px; }
 }
 
 .col-1 {
@@ -1695,6 +1707,25 @@ label span {
     }
     
     .text-sapnotajiem-tablet, .text-uznemejiem-tablet { display: none; }
+}
+
+@media screen and (max-width: 320px) {
+    .text-sapnotajiem-mobile-sb { margin-top: 166px; }
+}
+
+@media screen and (max-width: 320px) {
+    .text-uznemejiem-mobile-sb { margin-top: 20px; }
+}
+
+@media screen and (max-width: 768px) { 
+    .subtitle-uznemejiem { 
+        width: 50%;
+        margin-left: 83px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .subtitle-sapnotajiem { margin-right: 58px; }
 }
 
 .button4 {
