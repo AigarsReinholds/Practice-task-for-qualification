@@ -449,9 +449,16 @@ header {
     }
 }
 
-.second-section-sapnu-banka, .fourth-section-sapnu-banka {
+.second-section-sapnu-banka {
 	margin-top: 150px;
 	margin-bottom: 155px;
+}
+
+@media screen and (max-width: 320px) {
+    .second-section-sapnu-banka {
+        margin-top: 122px; 
+        margin-bottom: 125px;
+    }
 }
 
 .second-section-sapnu-banka div {
@@ -463,6 +470,19 @@ header {
 	.second-section-sapnu-banka div {
 		flex-wrap: wrap;
 	}
+}
+
+.fourth-section-sapnu-banka {
+	margin-top: 150px;
+	margin-bottom: 155px;
+}
+
+@media screen and (max-width: 768px) {
+    .fourth-section-sapnu-banka { margin-top: 125px; }
+}
+
+@media screen and (max-width: 320px) {
+    .fourth-section-sapnu-banka { margin-top: 110px; }
 }
 
 .sb-background-1 { width: 100%; }
@@ -1362,6 +1382,20 @@ select {
 	.third-section-sapnu-banka, .fifth-section-sapnu-banka { background-size: cover; }
 } 
 
+@media screen and (max-width: 768px) {
+    .fifth-section-sapnu-banka {
+        padding-top: 100px;
+	    padding-bottom: 10px;         
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .fifth-section-sapnu-banka {
+       padding-top: 55px;
+	   padding-bottom: 50px;         
+    }
+}
+
 .third-section-iedvesmas-stasti {
 	margin-top: 100px;	
 	margin-bottom: 310px; 
@@ -1378,7 +1412,14 @@ select {
 	color: #ffffff;
 }
 
-.third-section h3, .sixth-section-sapnu-banka {
+@media screen and (max-width: 320px) {
+    .third-section-sapnu-banka p, .fifth-section-sapnu-banka p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+.third-section h3, .sixth-section-sapnu-banka h3{
 	margin-top:125px;
 	margin-bottom:40px;
 	font-family: "Oswald";
@@ -1411,7 +1452,35 @@ select {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .sixth-section-sapnu-banka h3 {
+        margin-top: 150px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .sixth-section-sapnu-banka h3 {
+        margin-top: 133px;
+        margin-left: 15px;
+    }
+}
+
+.sixth-section-sapnu-banka h3 { margin-top: 165px; }
+
 .sixth-section-sapnu-banka { margin-bottom: 310px; }
+
+@media screen and (max-width: 768px) {
+    .sixth-section-sapnu-banka { margin-bottom: 240px; }
+}
+
+@media screen and (max-width: 320px) {
+    .sixth-section-sapnu-banka { 
+        margin-top: -55px;
+        margin-bottom: 375px; 
+    }
+}
 
 .third-section-ideja {  margin-bottom: 160px; }
 
