@@ -1050,7 +1050,36 @@ select {
 }
 
 .paragr-1 { margin-right: 115px; }
+
+@media screen and (max-width: 768px) {
+    .paragr-1 { 
+        width: 70%; 
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .paragr-1 { 
+        width: 88%; 
+        margin-left: 0;
+    }
+}
+
 .paragr-2 {	margin-left: 115px; }
+
+@media screen and (max-width: 768px) {
+    .paragr-2 { 
+        width: 62%; 
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .paragr-2 { 
+        width: 88%; 
+        margin-left: 0;
+    }
+}
 
 @media screen and (max-width:800px){
 	.about-sapnus-atlasis-paragraph { margin: auto; }
