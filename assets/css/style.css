@@ -1588,6 +1588,22 @@ p.mustfill {
 	background: #E7E7E7;
 }
 
+.checkbox2 {
+	width: 16px;
+	height: 16px;
+	margin-right: 22px;
+	margin-left: -32px;
+	border-radius: 3px;
+	background: #E7E7E7;
+}
+
+label input {
+	opacity: 0;
+	margin-top: 13px;
+	margin-right: 16px;
+	margin-left: -8px;
+}
+
 .list-item {
 	display:inline-block;
 	margin-top: 10px;
