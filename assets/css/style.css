@@ -243,6 +243,13 @@ header {
         margin-top: 50px;
     }
 } 
+
+@media screen and (max-width: 320px) {
+    .about-sapnus-atbalsta {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
  
 .first-section h1, .sapnu-banka-title {
 	margin-top: 112px;
