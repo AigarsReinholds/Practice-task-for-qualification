@@ -216,6 +216,29 @@ header {
         line-height: 15px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .first-section-uznemejiem p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+ 
+.first-section-uznemejiem .about-uznemejiem {
+  width: 60%;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .first-section-uznemejiem .about-uznemejiem { width: 80%; }
+}
+
+@media screen and (max-width: 320px) {
+    .first-section-uznemejiem .about-uznemejiem {
+        width: 90%;
+        margin-top: 50px;
+    }
+} 
  
 .first-section h1, .sapnu-banka-title {
 	margin-top: 112px;
