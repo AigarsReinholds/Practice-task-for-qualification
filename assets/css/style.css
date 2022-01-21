@@ -693,13 +693,6 @@ select {
     }
 }
 
-@media screen and (max-width: 880px) {
-	.wrapper-atbalsta-mobile {
-		margin: auto;
-		width: 50%;
-	}	
-}
-
 .wrapper-1 {
 	margin: 0 auto;
 	width: 4%;
@@ -1728,6 +1721,7 @@ label span {
 		width: 100%;
 		margin-top: 25px;
   }
+}
 
 @media screen and (max-width: 320px) {
     .rightside-logos { margin-top: 35px; }
@@ -2037,21 +2031,21 @@ label span {
 	clear: both; 
 }
 
-.scroll-down, .scroll-down-appear {
-	width: 50px;
-	height: 50px;
+.scroll-down, .scroll-down-appear{
 	position: fixed;
+  width: 50px;
+	height: 50px;
 	top: 150px;
-	right:15px;
-	z-index:4;
+	right: 15px;
+	z-index: 4;
 }
 
 .scroll-down { visibility: hidden; }
 
 .scroll-down-appear { visibility: visible; }
 
-.scrollDown-icon:hover { color: #FFDA16; }	
-	
+.scrollDown-icon:hover { color: #FFDA16; }
+
 /* Zemāk mobile view properties*/
 
 .navigation-toggler {
