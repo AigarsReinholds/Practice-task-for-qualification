@@ -1452,6 +1452,22 @@ select {
 
 .about-komanda { width: 45%; }
 
+@media screen and (max-width: 768px) {
+    .about-komanda { 
+        width: 80%; 
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about-komanda {
+        width: 90%;
+        margin-top: 30px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
 .selected-riga { 
 	margin-top: 150px;
 	display: none; 
@@ -1470,6 +1486,14 @@ select {
 	color: #ffffff
 }
 
+@media screen and (max-width: 320px) {
+    .komanda-member {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+
 .komanda-member-about {
 	position: relative;
 	font-family: "Montserrat";
@@ -1479,6 +1503,13 @@ select {
 	line-height: 22px;
 	text-align: center;
 	color: #ffffff;
+}
+
+@media screen and (max-width: 320px) {
+    .komanda-member-about {
+        font-size: 14px;
+        line-height: 17px;
+    }
 }
 
 .komanda-member-3 {
@@ -1701,13 +1732,56 @@ select {
 
 @media screen and (max-width: 880px) {
 	.column-komanda { margin: 15px auto 15px auto; }
+  
 	.column-komanda-2 { margin-left: auto; }
+}
+
+@media screen and (max-width: 768px) {
+	.column-komanda { margin: 12px auto 14px auto; }
+}
+
+@media screen and (max-width: 320px) {
+	.column-komanda { margin: 25px auto 25px auto; }
 }
 
 @media screen and (min-width: 881px) {
 	.column-komanda-2 { margin-left: 85px; }
+  
 	.column-komanda-3 { margin-left: 82px; }
 }
+
+@media screen and (max-width: 768px) {
+    .column-komanda-1 {
+        width: 352px;
+        height: 443px; 
+        background-size: 352px 443px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .column-komanda-2 {
+        width: 352px;
+        height: 445px;
+        background-size: 352px 445px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .column-komanda-3 {
+        width: 345px;
+        height: 435px; 
+        background-size: 345px 435px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .column-komanda-1, .column-komanda-2, .column-komanda-3 {
+        width: 280px;
+        height: 354px;
+        background-size: 280px 354px;
+    }  
+}
+
 .third-section { margin-top: 25px; }
 
 @media screen and (max-width: 320px) {
