@@ -1255,6 +1255,13 @@ select {
     }
 }
 
+
+.uznemums-1 { margin-bottom: 50px; }
+
+@media screen and (max-width: 320px) {
+    .uznemums-1, .uznemums-2 { display: none; }
+}
+
 .uznemuma-logo { margin-left: 132px; }
 
 @media screen and (max-width: 768px) { 
