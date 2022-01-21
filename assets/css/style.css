@@ -322,6 +322,15 @@ header {
     }
 }
 
+@media screen and (max-width: 320px) {
+    .first-section-iedvesmas-stasti p {
+        width: 90%;
+        margin: auto;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
 .first-section-sapnu-banka {
 	display: flex;
 	align-items: center;
@@ -363,6 +372,18 @@ header {
 }
 
 .first-section-iedvesmas-stasti { margin-bottom: 140px; }
+
+@media screen and (max-width: 768px) {
+    .first-section-iedvesmas-stasti { margin-bottom: 78px; }
+}
+
+@media screen and (max-width: 320px) {
+    .first-section-iedvesmas-stasti h1 { 
+        width: 96%;
+        margin-bottom: 55px;
+        margin-left: 5px;
+    }
+}
 
 .secondSection {
 	position: relative;
@@ -555,6 +576,17 @@ header {
 }
 
 .third-section-iedvesmas-stasti h2 { padding-top: 138px;}
+
+@media screen and (max-width: 768px) {
+    .third-section-iedvesmas-stasti h2 { padding-top: 80px; }
+}
+
+@media screen and (max-width: 320px) {
+    .third-section-iedvesmas-stasti h2 { 
+        font-size: 24px;
+        line-height: 36px; 
+    }
+}
 
 .uznemums-heading {
 	padding-top: 75px;
@@ -1475,12 +1507,12 @@ select {
 	width: 1045px;
 }
 
-@media screen and (max-width: 1050px) {  
-	.wrapper-stasti { width: 700px; }
+@media screen and (max-width: 768px) {  
+	.wrapper-stasti { width: 630px; }
 }
 
-@media screen and (max-width: 720px) {  
-	.wrapper-stasti { width: 350px; }
+@media screen and (max-width: 320px) {  
+	.wrapper-stasti { width: 295px; }
 }
 
 .iedvesmas-stasts-number {
@@ -1497,6 +1529,10 @@ select {
 	color: #ffffff;
 }
 
+@media screen and (max-width: 320px) {
+    .iedvesmas-stasts-number { right: 10px; }
+}
+
 .iedvesmas-stasts-background {
 	position: absolute;
 }
@@ -1508,6 +1544,26 @@ select {
 	margin: 7px;
 	float: left;
 	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+   .stasts, .stasts img { 
+        width: 143px;
+        height: 143px;
+        background-size: 143px 143px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   .stasts, .stasts img { 
+        width: 134.14px;
+        height: 134.14px;
+        background-size: 134.14px 134.14px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+    .stasts { margin: 6px; } 
 }
 
 .stasts-name {
@@ -1524,6 +1580,10 @@ select {
 	color: #ffffff;
 }
 
+@media screen and (max-width: 768px) {
+    .stasts-name { padding-top: 35px; }
+}
+
 .stasts-coming {
 	position: relative;
 	padding-top: 35px;
@@ -1534,6 +1594,18 @@ select {
 	line-height: 27px;
 	text-align: center;
 	color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .stasts-coming { padding-top: 25px; }
+}
+
+@media screen and (max-width: 320px) {
+    .stasts-coming {
+        padding-top: 35px;
+        font-size: 14px;
+        line-height: 21px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -1673,6 +1745,20 @@ select {
 	margin-top: 100px;	
 	margin-bottom: 310px; 
 	clear: both;
+}
+
+@media screen and (max-width: 768px) {
+    .third-section-iedvesmas-stasti { 
+        margin-top: 60px;
+        margin-bottom: 215px; 
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .third-section-iedvesmas-stasti { 
+        margin-top: 40px;
+        margin-bottom: 435px;
+    }
 }
 
 .third-section-sapnu-banka p, .fifth-section-sapnu-banka p {
@@ -1874,24 +1960,23 @@ select {
 	margin-top: 40px;
 }
 
+@media screen and (min-width: 769px) {
+    .collapse-btn {
+	    display: none;
+	}
+}
+
 .button-sapnis:hover {
 	background: #FFDA16;
 }
 
-@media screen and (min-width: 1051px) {
-.collapse-btn {
-	display: none;
-	}
-}
-
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 768px) {
 .collapse.btn {
 	display: block;
 	bottom: 0;
 	}
-.collapse-stasti {
-	display: none;
-	}
+  
+.collapse-stasti { display: none; }
 }
 
 .fourthSection h2 {
