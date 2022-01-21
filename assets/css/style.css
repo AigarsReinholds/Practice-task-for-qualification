@@ -2088,12 +2088,12 @@ label span {
 }
 
 .overlay {
-  height: 100%;
-  width: 0;
   position: fixed;
-  z-index: 3;
   top: 0;
   left: 0;
+  width: 0;
+  height: 100%;
+  z-index: 3;
   background-color: #FFFFFF;
   overflow-x: hidden;
   transition: 0.5s;
@@ -2117,7 +2117,7 @@ label span {
 
 .overlay-content {
   position: relative;
-  top: 1.5%;
+  top: 8%;
   width: 100%;
   text-align: center;
   margin-left: -105px;
