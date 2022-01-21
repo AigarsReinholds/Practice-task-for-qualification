@@ -572,6 +572,10 @@ header {
     }
 }
 
+@media screen and (max-width: 320px) {
+    .uznemums-heading-2 { margin-top: -25px; }
+}
+
 .map { overflow: hidden; }
 
 @media screen and (max-width: 768px) {
