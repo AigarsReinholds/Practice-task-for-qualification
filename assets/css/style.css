@@ -817,6 +817,13 @@ select {
     }
 }
 
+@media screen and (max-width: 320px) {
+	.wrapper-atbalsta-mobile {
+	    width: 88%;
+		margin: auto;
+	}	
+}
+
 .wrapper-1 {
 	margin: 0 auto;
 	width: 44%;
