@@ -1081,10 +1081,6 @@ select {
     }
 }
 
-@media screen and (max-width:800px){
-	.about-sapnus-atlasis-paragraph { margin: auto; }
-}
-
 @media screen and (max-width: 320px) {
     .img-group-14 {
         width: 269px;
